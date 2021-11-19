@@ -1,0 +1,135 @@
+*{
+    /* Margin 0 para todos los elementos */
+    margin: 0;
+    /* Los bordes y el padding cuentan en el ancho */
+    box-sizing: border-box;
+    /* Los bordes y el padding no cuentan en el ancho
+    box-sizing: content-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+/* color de fondo */
+    text-align: center;
+    padding-top: 15px;
+    background-color: lightyellow;
+    /* Altura del elemento, tiene que ser un elemento de bloque y 
+    la especificaremos en pixeles o en vh */
+    height: 50px;
+    /* Position indica la posición del elemento con respecto
+    a sus elementos adyacentes
+    fixed, se mantiene en el mismo sitio aunque haya scroll
+    absolute, lo posicionamos a mano y no se tiene en cuenta
+    para los demás elementos
+    relative, es el valor por defecto, quiere decir que se posicionan
+    las cosas unas al lado de otras */
+    position: fixed;
+    /* cuando posicionamos de manera absolute o fixed
+    podemos decirle a cuánta distancia estará de los bordes
+    de la web top, bottom, left, right */
+    
+    /* El ancho del elemento, normalmente usaremos
+    porcentajes */
+    width: 15%;
+}
+
+nav{
+    background-color: rgb(200, 195, 195);
+    padding-top: 8px;
+    height: 50px;
+    position: fixed;
+    padding-right: 5px;
+    right: 0;
+    width: 85%;
+    /* Esto es para subir o bajar elementos cuando se solapen
+    a modo de capas. Por defecto el valor es 0 así que 
+    si le ponemos 1 quiere decir que estará por encima
+    de los que estén a 0 */
+    z-index: 1;
+}
+
+aside{
+    padding: 10px;
+    background-color: lightsalmon;
+    position: fixed;
+    left: 0;
+    width: 15%;
+    top: 50px;
+    border-right-style: solid;
+    border-width: 1px;
+    /* Calc nos permite hacer cálculos con
+     medidas diferentes relativas y absolutas*/
+    height: calc(100vh - 50px);
+    overflow: auto;
+    text-align: center;
+
+}
+
+main{
+    background-color: lightskyblue;
+    position: absolute;
+    right: 0;
+    width: 85%;
+    top: 50px;
+    /* min-height nos permite especificar una altura 
+    mínima para los elementos, por si acaso el contenido
+    no es lo suficientemente grande; */
+    min-height: calc(100vh - 50px);
+}
+
+aside > a{
+    display: block;
+    background-color: lawngreen;
+    padding: 5px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-width: 1px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+aside > a:hover{
+    border-color: black;
+    border-width: 2px;
+}
+
+aside > a:visited{
+    color: black;
+}
+
+aside > h1{
+    text-align: center;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    padding-bottom: 10px;
+
+}
+
+nav > a{
+    display: inline-block;
+    width: 151px;
+    background-color: lawngreen;
+    padding: 5px;
+    border-style: solid;
+    border-color: lawngreen;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav > a:hover{
+    border-color: black;
+    border-width: 2px;
+}
+
+nav > a:visited{
+    text-align: right;
+}
