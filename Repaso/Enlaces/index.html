@@ -10,7 +10,19 @@
     <h1>Enlaces y Imágenes</h1>
     <h2><a href="https://www.google.es">Google</a> <!-- Tiene que ser siempre con el protocolo (http/https/ftp/file/mailito), no te redirigirá a google si poner www.google.com por lo que el enlace no funcinará del todo --></h2>
     <p><a href="https://www.twitch.tv/">Twitch</a></p>
-    <a href="https://www.youtube.com/">Youtube</a>
-    <img src="./Img/pinguin002.png" alt="Imágen de un pinguino Linux con rombre de Red Hat">
+    <h3><a href="https://www.youtube.com/">Youtube</a></h3>
+    <img width="5%" height="100px" src="./Img/pinguin002.png" alt="Imágen de un pinguino Linux con un sombrero de Red Hat">
+
+    <video width="320" height="240" controls // autoplay // muted> <!-- Atributos que se puede añadir al video para tener un control sobre el // se reproduzca solo una vez entrado al video // o que el video empieze sin sonido -->
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+    </video>
+
+    <audio controls // autoplay // muted> <!-- Atributos que se puede añadir al audio para tener un control sobre el // se reproduzca solo una vez entrado al audio // o que el audio empieze sin sonido -->
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+    </audio>
+    <p>Video de Youtube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2ZK5zNkFgXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
