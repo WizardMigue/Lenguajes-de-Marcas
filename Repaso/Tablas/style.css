@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+table{
+    border-collapse: collapse; /* Para juntar las celdas */
+    text-align: left;
+}
+
+td, th{
+    border-style: solid;
+    border-width: 5px; 
+}
+
+th{
+    border-top-style: none; /* Para que desaparezca el borde de arriba de la celda del encabezado */
+}
+
+td{
+    background-color: tomato;
+    border-radius: 20px;
+}
+
+#enca{
+    background-color: violet;
+}
+
+#t1{
+    background-color: aqua;
+    font-weight: bold; /* Poner el texto de esa celda en negrita */
+}
+#t2{
+    background-color: red;
+}
+#t3{
+    background-color: purple;
+    font-weight: bold; 
+}
+#t4{
+    background-color: green;
+}
+
+.t1{
+    background-color: brown;
+}
+.t2{
+    background-color: yellow;
+    font-weight: bold; 
+}
+.t3{
+    background-color: orangered;
+}
+.t4{
+    background-color: lightcoral;
+    font-weight: bold; 
+}
