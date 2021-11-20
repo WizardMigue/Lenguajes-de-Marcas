@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: royalblue;
+}
+
+a{
+    text-decoration: none; /* No se mostrará el subrayado del enlace */
+    color: inherit; 
+    background-color: ivory;
+}
+
+a:hover{ /*Para que cuando pase por encima del enlace (a) cambie de color */
+    background-color: yellow;
+    color: red;
+}
+
+

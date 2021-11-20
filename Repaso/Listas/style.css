@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif; /* Cambiar el tipo de letra */
+    /* font-family: sans-serif; // Es una fuente sin serifa */
+}
+
+h1{
+    color: royalblue;
+}
+
+h2{
+    color: yellow;
+}
+
+h3{
+    color: snow;
+}
+
+li:hover{ /* Para que cuando pase por encima de las listas, el texto de ponga en negrita */
+    font-weight: bold;
+}
