@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./Imagenes/images.png" alt="Imagen del logo">
+    </header>
+    <nav>
+        <a href="./main.html">Home</a>
+        <a href="./formulario.html">Formulario</a>
+        <a href="./conocenos.html">Conocenos</a>
+    </nav>
+    <aside>
+        <h1>Noticias</h1>
+        <section>
+            <hr>
+            <h2>Aire acondicionado o climatizador. ¿Cuál es la diferencia?</h2>
+            <p>
+                Como la base del sistema de refrigeración es la misma, las principales diferencias se hallan en las
+                tecnologías que lo rodean; y más concretamente, en cómo el usuario interactúa con él. Así, la solución
+                más simple y económica es el “aire acondicionado” de toda la vida. Su manejo es sota, caballo y rey:
+                cuenta con un botón de encendido y apagado, un mando para mezclar el aire frío del sistema con el
+                caliente del motor, y otro para dirigir el caudal de aire (ya sea a la cabeza, los pies, el parabrisas
+                delantero y alguna que otra combinación). Por tanto, corresponde al conductor o acompañante manejar cada
+                control de forma manual a medida que cambie la temperatura del vehículo o nuestra sensación térmica.
+                Con objeto de solucionar dichas carencias, en los últimos años se ha ido extendiendo -desde el automóvil
+                de lujo hasta el más mundano- el concepto de “climatizador”, en el que basta con elegir la temperatura
+                deseada y dejar que la electrónica del vehículo se ocupe de alcanzarla y mantenerla. Para ello, el
+                sistema de refrigeración precisa añadir sensores de temperatura exterior y exterior, además de los
+                necesarios mecanismos de regulación automática (que incluyen el apagado y encendido del compresor según
+                proceda).
+            </p>
+            <hr>
+            <h2>¿Puedo desgravar el IVA al comprar un coche?</h2>
+            <p>Un empresario o trabajador autónomo puede desgravarse el IVA tanto por la compra de un vehículo como por
+                su uso y mantenimiento pero todo dependerá de la actividad que realice, el tipo de vehículo e incluso
+                del inspector que le toque. Siempre la Agencia Tributaria tendrá la última palabra tras valorar las
+                pruebas aportadas.
+
+                Por lo general te podrás deducir el 50% del IVA en la compra y mantenimiento del vehículo siempre que
+                demuestres que lo utilizas en el ejercicio de tu actividad económica. Y te podrás deducir el 100% si se
+                dan algunas de estas circunstancias:
+                <br>
+                - Los vehículos mixtos utilizados en el transporte de mercancías. En este apartado se incluyen los
+                vehículos dispuestos para el transporte de mercancías y/o personas, de forma simultánea o no, hasta un
+                máximo de 9 personas incluido el conductor. Podrían valer tanto una furgoneta como un monovolumen.
+                <br>
+                - Los utilizados en la prestación de servicios de transporte de viajeros mediante contraprestación, es
+                decir, los taxis y otros vehículos destinados al transporte de personas.
+                br
+                - Los utilizados en la prestación de servicios de enseñanza de conductores o pilotos mediante
+                contraprestación, en otras palabras, los vehículos de autoescuela.
+            </p>
+            <hr>
+        </section>
+    </aside>
+    <main>
+        <h1>¿Estas buscando un coche y no sabes por donde empezar?</h1>
+        <form>
+            <h3>Presupuesto</h3>
+            <label for="cantidad">¿Cuanto es lo maximo que pagarias por un coche de conbustión?</label>
+            <br>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">7000€ a
+                9000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">13000€ a
+                15000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">17000€ a
+                21000€</label>
+            <br>
+            <label for="cantidad">¿Cuanto es lo maximo que pagarias por un coche híbrido?</label>
+            <br>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">25000€ a
+                30000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">32000€ a
+                35000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">38000€ a
+                40000€</label>
+            <br>
+            <label for="cantidad">¿Cuanto es lo maximo que pagarias por un coche eléctrico?</label>
+            <br>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">41000€ a
+                45000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">48000€ a
+                52000€</label>
+            <input type="radio" name="dinero" id="campodinero" value="dinero"><label for="campodinero">54000€ a
+                60000€</label>
+            <br>
+            <label for="pregunta1">¿Estas más seguro conduciendo un coche propio o uno de alquiler?</label>
+            <br>
+            <input size="100" type="text" name="pregunta1" id="pregunta1" placeholder="Escribe tu respuesta">
+            <h3>Uso y Necesidades</h3>
+            <label for="cantidad">¿Le vas ha hacer muchos kilometros?</label>
+            <br>
+            <label for="kilometros?">Diesel</label>
+            <input type="checkbox" name="kilometros?" id="kilometros?" value="kilometros?">
+            <label for="kilometros?">Gasolina</label>
+            <input type="checkbox" name="kilometros?" id="kilometros?" value="kilometros?">
+            <h3>Encuesta</h3>
+            <label for="pregunta1">¿Estas más seguro conduciendo un coche propio o uno de alquiler?</label>
+            <br>
+            <input size="100" type="text" name="pregunta1" id="pregunta1" placeholder="Escribe tu respuesta">
+            <br>
+            <label for="pregunta2">¿Para su iniciación en la conducción que tipo de coche prefiere?</label>
+            <br>
+            <input size="100" type="text" name="pregunta2" id="pregunta2" placeholder="Escribe tu respuesta">
+            <br>
+            <label for="pregunta3">¿ Prefiere velocidad o seguridad?</label>
+            <br>
+            <input size="100" type="text" name="pregunta3" id="pregunta3" placeholder="Escribe tu respuesta">
+            <br>
+            <label for="pregunta4">¿Color del coche que más le agrada?</label>
+            <br>
+            <input size="100" type="text" name="pregunta4" id="pregunta4" placeholder="Escribe tu respuesta">
+            <br>
+            <label for="pregunta5">¿Marca de automóvil preferido?</label>
+            <br>
+            <input size="100" type="text" name="pregunta5" id="pregunta5" placeholder="Escribe tu respuesta">
+            <br>
+            <label for="pregunta6">¿Cree que las empresas de alquiler de automóviles son competitivas?</label>
+            <br>
+            <input size="100" type="text" name="pregunta5" id="pregunta5" placeholder="Escribe tu respuesta">
+            <br>
+            <br>
+            <hr>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Borrar datos">
+        </form>
+
+        <div class="grid-container1">
+            <div class="galeria1">
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Coches.jpg" alt="Imagen1"></div>
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Le-Mans.jpg" alt="Imagen2"></div>
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Motor.jpg" alt="Imagen3"></div>
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Velocidad.jpg" alt="Imagen4"></div>
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Verde.jpeg" alt="Imagen5"></div>
+                <div class="imagen1"><img src="./Imagenes/Imagenes-Grid/Motor1.jpg" alt="Imagen6"></div>
+            </div>
+        </div>
+    </main>
+    <footer>Creado por Miguel Ovejero | 17-11-2021</footer>
+</body>
+
+</html>
