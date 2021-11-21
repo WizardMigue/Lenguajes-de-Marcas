@@ -1,0 +1,77 @@
+/* Versión de movil */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+aside,
+main,
+header,
+footer {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+header {
+    order: 1;
+    background-color: purple;
+}
+
+aside {
+    background-color: orchid;
+}
+
+#asi1 {
+    order: 3;
+}
+
+#asi2 {
+    order: 4;
+}
+
+main {
+    order: 2;
+    background-color: powderblue;
+}
+
+footer {
+    order: 5;
+    background-color: silver;
+}
+
+
+/* Versión de tablet */
+
+@media (min-width: 768px) {
+    aside {
+        flex-basis: auto;
+    }
+    #asi1 {
+        background-color: lightcoral;
+    }
+    #asi2 {
+        background-color: indigo;
+    }
+}
+
+@media (min-width: 1000px) {
+    #asi1 {
+        order: 2;
+    }
+    main {
+        order: 3;
+        flex-basis: 60%;
+    }
+    #asi2 {
+        order: 4;
+    }
+}
