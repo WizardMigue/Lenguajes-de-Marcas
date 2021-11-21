@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellenar tu CV</title>
+</head>
+
+<body>
+    <h1><b>Rellena tu CV</b></h1>
+    <form action="/action_page.php">
+        <label for="fname">Nombre</label><br>
+        <input type="text" id="fname" name="fname" size="70"><br>
+        <label for="lname">Apellidos</label><br>
+        <input type="text" id="lname" name="lname" size="120"><br>
+        <label for="lname">Contraseña</label><br>
+        <input type="text" id="lname" name="lname" size="15"><br>
+        <label for="lname">DNI</label><br>
+        <input type="text" id="lname" name="lname" size="20"><br>
+        <div>Sexo</div>
+        <input type="radio" name="fav_language" value="Hombre">
+        <label for="Hombre">Hombre</label><br>
+        <input type="radio" name="fav_language" value="Mujer">
+        <label for="Mujer">Mujer</label><br>
+        <label for="arch">Incluir mi foto</label>
+        <input type="file" name="archivo" />
+        <br>
+        <input type="checkbox" name="Subs" value="Suscribirse">Suscribirme al boletín de novedades<br>
+        <div>Temas</div>
+        <select size=4>
+            <option>Administración de bases</option> 
+            <option>XML</option> 
+            <option>Redes</option>
+            <option>Android</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" value="Borrar datos">
+    </form>
+</body>
+
+</html>

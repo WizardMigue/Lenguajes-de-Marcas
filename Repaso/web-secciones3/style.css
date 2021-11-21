@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding-top: 5px;
+    background-color: lightyellow;
+    height: 50px;
+    position: fixed;
+    width: 15%;
+}
+
+nav {
+    background-color: rgb(200, 195, 195);
+    padding-top: 7px;
+    padding-right: 7px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    width: 85%;
+    text-align: end;
+    z-index: 1;
+}
+
+aside {
+    padding: 10px;
+    background-color: lightsalmon;
+    position: fixed;
+    left: 0;
+    width: 15%;
+    top: 50px;
+    border-right-style: solid;
+    border-width: 1px;
+    height: calc(100vh - 50px);
+    overflow: auto;
+    text-align: center;
+}
+
+main {
+    background-color: lightskyblue;
+    position: absolute;
+    right: 0;
+    width: 85%;
+    top: 50px;
+    min-height: calc(100vh - 50px);
+}
+
+aside>a {
+    display: block;
+    /* Block para que que no se me muestren al lado del otro, ahora se mostraran uno encima del otro */
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellow;
+    /* Oculta el borde de los botones */
+}
+
+aside>a:hover {
+    background-color: red;
+    border-color: black;
+}
+
+nav>a {
+    display: inline-block;
+    /* Block para que que no se me muestren al lado del otro, ahora se mostraran uno encima del otro */
+    background-color: yellow;
+    margin: 5px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: yellow;
+    /* Oculta el borde de los botones */
+}
+
+nav>a:hover {
+    background-color: red;
+    border-color: black;
+}
