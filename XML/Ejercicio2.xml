@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datos>
+	<mueble>
+		<color>Rojo</color>
+		<fechaMontaje>06-11-2014</fechaMontaje>
+		<material>madrera</material>
+		<dimensiones>
+            <ancho>12,3cm</ancho>
+            <altura>78cm</altura>
+        </dimensiones>	
+	</mueble>
+
+	<mueble>
+		<color>Verde</color>
+		<fechaMontaje>08-1-2010</fechaMontaje>
+		<material>madrera</material>
+		<dimensiones>
+            <ancho>8,3cm</ancho>
+            <altura>18cm</altura>
+        </dimensiones>	
+	</mueble>
+
+	<mueble>
+		<color>Azul</color>
+		<fechaMontaje>01-6-2002</fechaMontaje>
+		<material>madrera</material>
+		<dimensiones>
+            <ancho>15,3cm</ancho>
+            <altura>28,6cm</altura>
+        </dimensiones>	
+	</mueble>
+</datos>
