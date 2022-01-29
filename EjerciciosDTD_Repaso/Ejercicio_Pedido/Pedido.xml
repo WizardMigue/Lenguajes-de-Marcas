@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE pedidos SYSTEM "Pedido.dtd">
+
+<pedidos>
+    <pedido>
+        <Destinatario>Juan Delgado Martínez</Destinatario>
+        <Articulo>bicicleta A2023</Articulo>
+        <Direccion>calle Barco 4, tercer piso, letra A</Direccion>
+        <Fecha>19-5-2000</Fecha>
+    </pedido>
+    <pedido>
+        <Destinatario>Juan Delgado Martínez</Destinatario>
+        <Articulo>bicicleta A2023</Articulo>
+        <Direccion>calle Barco 4, tercer piso, letra A</Direccion>
+        <Fecha>19-5-2000</Fecha>
+    </pedido>
+    <pedido>
+        <Destinatario>Juan Delgado Martínez</Destinatario>
+        <Articulo>bicicleta A2023</Articulo>
+        <Direccion>calle Barco 4, tercer piso, letra A</Direccion>
+        <Fecha>19-5-2000</Fecha>
+    </pedido>
+</pedidos>

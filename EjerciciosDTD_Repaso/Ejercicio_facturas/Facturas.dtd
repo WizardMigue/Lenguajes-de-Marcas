@@ -1,0 +1,32 @@
+<!ELEMENT facturas (factura)>
+<!ELEMENT factura (datos_cliente, datos_factura)>
+<!ELEMENT datos_cliente (nombre, (apellido+), dni, tfno)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT tfno (#PCDATA)>
+<!ATTLIST datos_cliente ident CDATA #REQUIRED>
+<!ELEMENT datos_factura (resguardo, alquileres, compras)>
+<!ELEMENT resguardo (forma_pago, importe_total)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT importe_total (#PCDATA)>
+<!ELEMENT alquileres (fecha, peliculas)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT peliculas (pelicula)>
+<!ATTLIST pelicula 
+                id_pelicula ID #REQUIRED
+                caratula CDATA #REQUIRED>
+<!ELEMENT pelicula (titulo, genero, duracion, actores)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT actores (actor+)>
+<!ELEMENT actor (nombre, (apellido+))>
+<!ELEMENT compras (dvds, cintas)>
+<!ELEMENT dvds (dvd)>
+<!ELEMENT dvd (extras, titulo, fecha_salida_mercado)>
+<!ELEMENT extras EMPTY>
+<!ELEMENT fecha_salida_mercado (#PCDATA)>
+<!ELEMENT cintas (cinta)>
+<!ELEMENT cinta (titulo, formato)>
+<!ELEMENT formato (#PCDATA)>

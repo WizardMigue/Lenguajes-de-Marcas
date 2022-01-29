@@ -1,0 +1,7 @@
+<!ELEMENT Carta (desayuno+)>
+<!ATTLIST Carta desayunos (Ingles | Mediterráneo) #REQUIRED>
+<!ELEMENT desayuno (nombre, precio, descripcion, calorias)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT calorias (#PCDATA)>

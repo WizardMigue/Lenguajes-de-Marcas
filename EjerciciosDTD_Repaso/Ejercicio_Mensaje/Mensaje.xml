@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Mensajes SYSTEM "Mensaje.dtd">
+
+<Mensajes>
+    <Mensaje>
+        <Remitente>
+            <nombre>Alfredo Reino</nombre>
+            <email>alf@ibium.com</email>
+        </Remitente>
+        <Destinatario>
+            <nombre>Bill Clinton</nombre>
+            <email>president@whitehouse.gov</email>
+        </Destinatario>
+        <Asunto>Hola Bill</Asunto>
+        <Texto>
+            <parrafo>¿Hola qué tal?</parrafo>
+            <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</parrafo>
+            <parrafo>Un saludo.</parrafo>
+        </Texto>
+    </Mensaje>
+    <Mensaje>
+        <Remitente>
+            <nombre>Alfredo Reino</nombre>
+            <email>alf@ibium.com</email>
+        </Remitente>
+        <Destinatario>
+            <nombre>Bill Clinton</nombre>
+            <email>president@whitehouse.gov</email>
+        </Destinatario>
+        <Asunto>Hola Bill</Asunto>
+        <Texto>
+            <parrafo>¿Hola qué tal?</parrafo>
+            <parrafo>Hace mucho tiempo que no escribes. A ver si llamas y quedamos pronto.</parrafo>
+            <parrafo>Un saludo.</parrafo>
+        </Texto>
+    </Mensaje>
+</Mensajes>
