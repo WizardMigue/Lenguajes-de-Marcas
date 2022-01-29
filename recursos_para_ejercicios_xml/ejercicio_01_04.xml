@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpson>
+  <personaje sexo="H" >
+    <nombre>
+      Bart
+    </nombre>  
+    <pelo>
+      rubio
+    </pelo>
+  </personaje>
+  <personaje sexo="F" >
+    <nombre>
+      Lisa
+    </nombre>  
+    <pelo>
+      rubio
+    </pelo>
+  </personaje> 
+</simpson>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<empresa>
+    <direccion>
+        <calle>Avd. Diagonal 8</calle>
+        <ciudad>Barcelona</ciudad>
+        <provincia>Barcelona</provincia>
+        <pais>España</pais>
+    </direccion>
+    <servidor>
+        <url>http://www.unaurl.com</url>
+        <direccion>123.45.67.8</direccion>
+    </servidor>
+</empresa>

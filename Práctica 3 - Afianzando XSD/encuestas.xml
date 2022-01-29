@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resultados_encuesta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="schema_encuestas.xsd">
+	<encuesta marca_temporal="2021-09-23T23:56:05" almacenada_en_bbdd="true">
+		<datosAlumno num="608500"> 
+			<nombre>Pepe</nombre> 
+			<apellidos>Romero Pedrasco</apellidos> 			
+		</datosAlumno> 
+		<organizacion> 
+			<enunciado idioma="ES">Valore cada uno de los aspectos de la organización del viaje, siendo 0 nada satisfecho y 5 muy satisfecho</enunciado> 
+			<viaje>5</viaje>
+			<visitas>4</visitas>
+			<comida>4</comida>
+		</organizacion> 
+		<visitasRealizadas>
+			<info>Valore los sitios visitados (0 - Nada satisfecho, 5 - Muy satisfecho)</info>
+			<visita sitio="s1">5</visita>
+			<visita sitio="s3">3</visita>
+			<visita sitio="s2">4</visita>
+		</visitasRealizadas>
+		<valoracion_general>Muy satisfecho</valoracion_general> 
+		<comentario>Repetiría <resaltar>sin duda</resaltar>, lo mejor del <colorear color="verde">viaje</colorear> fué la visita al <colorear>superordenador</colorear></comentario>
+	</encuesta> 
+	<encuesta marca_temporal="2021-10-23T08:50:34">
+		<datosAlumno num="57684"> 
+			<nombre>Noelia</nombre> 
+			<apellidos>Piedrafita Soler</apellidos>
+		</datosAlumno> 
+		<organizacion> 			
+			<comida>3</comida>	
+			<enunciado>Valore cada uno de los aspectos de la organización del viaje, siendo 0 nada satisfecho y 5 muy satisfecho</enunciado> 			
+			<viaje>4</viaje>
+			<visitas>5</visitas>			
+		</organizacion> 
+		<visitasRealizadas>
+			<visita sitio="s2">4</visita>
+			<visita sitio="s1">5</visita>
+			<visita sitio="s3">3</visita>
+		</visitasRealizadas>
+		<valoracion_general>Satisfecho</valoracion_general> 
+		<comentario>Fue un viaje <colorear color="naranja">muy interesante</colorear> pero la <resaltar>comida</resaltar> podría mejorar. La visita al <resaltar>museo</resaltar> me aburrió un poco.</comentario>
+	</encuesta>
+	<sitios>
+		<sitio id="s1">Mare Nostrum</sitio>
+		<sitio id="s2">Park Güell</sitio>
+		<sitio id="s3">Museo de arte</sitio>
+	</sitios>
+	<estadisticas puntuacion_media="4.3"/>
+	<localizador>AHG3524asgkgC</localizador>
+</resultados_encuesta>

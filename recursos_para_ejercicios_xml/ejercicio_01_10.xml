@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inmuebles>
+    <inmueble>
+        <trabaja>Alquiler</trabaja>
+        <direccion>
+            <calle>C/Yoquese</calle>
+            <numero>nº 23</numero>
+            <piso>1ºA</piso>
+            <ciudad>Huesca</ciudad>
+        </direccion>
+        <dispone>
+            <habitacion>3</habitacion>
+            <salon>1</salon>
+            <cocina>1</cocina>
+            <baño>2</baño>
+            <garaje>1</garaje>
+            <ascensor>1</ascensor>
+            <trastero>1</trastero>
+        </dispone>
+        <vistas>Interior</vistas>
+        <estado>Preparado para vivir</estado>
+    </inmueble>
+    <inmueble>
+        <trabaja>Vender</trabaja>
+        <direccion>
+            <calle>Avda. Deatrás</calle>
+            <numero>nº 86</numero>
+            <piso>4ºB</piso>
+            <ciudad>Huesca</ciudad>
+        </direccion>
+        <dispone>
+            <habitacion>4</habitacion>
+            <salon>1</salon>
+            <cocina>1</cocina>
+            <baño>2</baño>
+            <garaje>1</garaje>
+            <ascensor>1</ascensor>
+            <trastero>0</trastero>
+        </dispone>
+        <vistas>Exterior</vistas>
+        <estado>Necesita obras antes de entrar a vivir</estado>
+    </inmueble>
+    <inmueble>
+        <trabaja>Alquilar</trabaja>
+        <direccion>
+            <calle>C/Dearriba</calle>
+            <numero>nº 34</numero>
+            <piso>3ºC</piso>
+            <ciudad>Huesca</ciudad>
+        </direccion>
+        <dispone>
+            <habitacion>2</habitacion>
+            <salon>1</salon>
+            <cocina>1</cocina>
+            <baño>1</baño>
+            <garaje>0</garaje>
+            <ascensor>0</ascensor>
+            <trastero>1</trastero>
+        </dispone>
+        <vistas>Exterior</vistas>
+        <estado>Preparado para vivir</estado>
+    </inmueble>
+</inmuebles>

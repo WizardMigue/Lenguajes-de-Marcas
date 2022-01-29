@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contactos>
+        <contacto>
+            <nombre>Juan</nombre>
+            <direccion>
+                <calle>tortosa</calle>
+                <codigo>53001</codigo>
+                <ciudad>Alicante</ciudad>
+            </direccion>
+            <medios-contacto>
+                <telefono-fijo>976245263</telefono-fijo>
+                <telefono-movil>689456875</telefono-movil>
+                <correo-electronico>tortosa@gmail.com</correo-electronico>
+            </medios-contacto>
+        </contacto>
+    </contactos>
+</agenda>

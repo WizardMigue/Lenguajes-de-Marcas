@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="fichas.xsd">
+   <ficha numero="1" idioma="ES">
+      <nombre genero="F">Ana Santos Lorea</nombre>
+      <edad>22</edad>
+	  <otros descr="Esta es la ficha de Ana"/>
+   </ficha>
+   <ficha numero="2" fecha="2021-01-25">
+      <nombre>Iker Rubio Molino</nombre>
+      <edad mayor_de_edad="true">23</edad>
+	  <otros descr="Iker tiene la ficha numero 2"/>
+   </ficha>
+</fichas>

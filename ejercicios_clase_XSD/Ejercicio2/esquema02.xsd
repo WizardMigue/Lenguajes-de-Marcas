@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="peliculas">
+            <xs:complexType>
+                  <xs:sequence>
+						<xs:element name="pelicula" minOccurs="0" maxOccurs="50">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="titulo" type="xs:string"/>
+									<xs:element name="minutos" type="xs:integer" minOccurs="0"/>
+									<xs:element name="datos_adicionales">
+										<xs:complexType>
+											<xs:all>
+												<xs:element name="director" type="xs:string" />
+												<xs:element name="productor" type="xs:string"/>
+											</xs:all>
+										</xs:complexType>
+									</xs:element>
+									<xs:choice>
+										<xs:element name="tieneGoya" type="xs:boolean"/>
+										<xs:element name="tieneOscar" type="xs:boolean"/>
+									</xs:choice>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+                  </xs:sequence>
+		  </xs:complexType>
+      </xs:element>
+</xs:schema>

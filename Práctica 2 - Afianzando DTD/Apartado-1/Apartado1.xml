@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cv [
+	<!ELEMENT cv (datosPersonales, datosContacto, (datosContactoAdicional?), formacion, idiomas, experienciaProfesional, competenciasSP, datosAdicionales)>
+	<!ELEMENT datosPersonales (nombre, apellidos, fechaNac, lugarNac, nacionalidades, (nif | nie))>
+	<!ATTLIST datosPersonales foto CDATA #REQUIRED>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT apellidos (#PCDATA)>
+	<!ELEMENT fechaNac (dia, mes, anyo)>
+	<!ELEMENT dia (#PCDATA)>
+	<!ELEMENT mes (#PCDATA)>
+	<!ELEMENT anyo (#PCDATA)>
+	<!ELEMENT lugarNac (#PCDATA)>
+	<!ELEMENT nacionalidades (nacionalidad+)>
+	<!ELEMENT nacionalidad (#PCDATA)>
+	<!ELEMENT nif (#PCDATA)>
+	<!ELEMENT datosContacto (calle, (numero?), (portal?), (escalera?), (piso?), (puerta?), cp, pais, email, movil, telfs)>
+	<!ELEMENT calle (#PCDATA)>
+	<!ATTLIST calle tipoVia (Plaza | Calle | Avenida) #REQUIRED>
+	<!ELEMENT numero (#PCDATA)>
+	<!ELEMENT portal (#PCDATA)>
+	<!ELEMENT escalera (#PCDATA)>
+	<!ELEMENT piso (#PCDATA)>
+	<!ELEMENT puerta (#PCDATA)>
+	<!ELEMENT cp (#PCDATA)>
+	<!ELEMENT pais (#PCDATA)>
+	<!ELEMENT email (#PCDATA)>
+	<!ELEMENT movil (#PCDATA)>
+	<!ELEMENT telfs (telf*)>
+	<!ELEMENT telf (#PCDATA)>
+	<!ELEMENT datosContactoAdicional (web, linkedin, facebook)>
+	<!ELEMENT web (#PCDATA)>
+	<!ELEMENT linkedin (#PCDATA)>
+	<!ELEMENT facebook EMPTY>
+	<!ELEMENT formacion (estudio+)>
+	<!ELEMENT estudio (nombre, lugar, fechaInicio, fechaFin)>
+	<!ATTLIST estudio nivel (basico | medio | superior) #REQUIRED>
+	<!ELEMENT lugar (#PCDATA)>
+	<!ELEMENT fechaInicio (dia, mes, anyo)>
+	<!ELEMENT fechaFin (dia, mes, anyo)>
+	<!ELEMENT idiomas (idioma*)>
+	<!ELEMENT idioma (nombre, organismo)>
+	<!ATTLIST idioma 
+					nivel (bajo | medio | alto) "medio" 
+					materno (si | no) #REQUIRED>
+	<!ENTITY en "Inglés">
+	<!ENTITY es "Español">
+	<!ENTITY de "Alemán">
+	<!ENTITY it "Italiano">
+	<!ENTITY fr "Francés">
+	<!ELEMENT organismo (#PCDATA)>
+	<!ATTLIST organismo oficial (si | no) #FIXED "si">
+	<!ELEMENT experienciaProfesional (experiencia*)>
+	<!ELEMENT experiencia (empresa, puesto, fechaInicio, fechaFin)>
+	<!ELEMENT empresa (#PCDATA)>
+	<!ELEMENT puesto (#PCDATA)>
+	<!ELEMENT competenciasSP (competencia+)>
+	<!ELEMENT competencia (desc)>
+	<!ATTLIST competencia 
+					tipo (liderazgo | trabajoenequipo | iniciativa) #REQUIRED
+					nivel ( 1 | 2 | 3 | 4 | 5) #IMPLIED>
+	<!ELEMENT desc (#PCDATA)>
+	<!ELEMENT datosAdicionales (aficiones, disponibilidadViajar, vehiculo, licencias)>
+	<!ELEMENT aficiones (aficion*)>
+	<!ELEMENT aficion (#PCDATA)>
+	<!ELEMENT disponibilidadViajar (#PCDATA)>
+	<!ELEMENT vehiculo (#PCDATA)>
+	<!ELEMENT licencias (licencia*)>
+	<!ELEMENT licencia (#PCDATA)>
+]>
+
+<cv>
+  	<datosPersonales foto="../miFoto.png">
+		<nombre>Manuel</nombre>
+		<apellidos>López Obrador</apellidos>
+		<fechaNac>
+			<dia>22</dia>
+			<mes>12</mes>
+			<anyo>1989</anyo>
+		</fechaNac>
+		<lugarNac>Albacete</lugarNac>
+		<nacionalidades>
+			<nacionalidad>española</nacionalidad>
+			<nacionalidad>francesa</nacionalidad>
+		</nacionalidades>
+		<nif>12345678A</nif>
+  	</datosPersonales>
+  	<datosContacto>
+		<calle tipoVia="Plaza">España</calle>
+		<numero>12</numero>
+		<portal>IV</portal>
+		<escalera>a</escalera>
+		<piso>1</piso>
+		<puerta>B</puerta>
+		<cp>02002</cp>
+		<pais>España</pais>
+		<email>miCorreo@servidor.org</email>
+		<movil>555668877</movil>
+		<telfs>
+			<telf>888441122</telf>
+			<telf>888556633</telf>
+		</telfs>
+  	</datosContacto>
+  	<datosContactoAdicional>
+		<web>https://www.miweb.com</web>
+		<linkedin>Miusuario</linkedin>
+		<facebook/>
+  	</datosContactoAdicional>
+  	<formacion>
+		<estudio nivel="medio">
+			<nombre>ESO</nombre>
+			<lugar>IES Ramon y Cajal</lugar>
+			<fechaInicio>
+				<dia>17</dia>
+				<mes>09</mes>
+				<anyo>2005</anyo>
+			</fechaInicio>
+			<fechaFin>
+				<dia>25</dia>
+				<mes>06</mes>
+				<anyo>2011</anyo>
+			</fechaFin>
+		</estudio>
+  	</formacion>
+  	<idiomas>
+		<idioma nivel="bajo" materno="no">
+			<nombre>&fr;</nombre>
+			<organismo oficial="si">Le École Baguette </organismo>
+		</idioma>
+  	</idiomas>
+  	<experienciaProfesional>
+		<experiencia>
+			<empresa>Informatica S.L.</empresa>
+			<puesto>Programador</puesto>
+			<fechaInicio>
+				<dia>17</dia>
+				<mes>09</mes>
+				<anyo>2005</anyo>
+			</fechaInicio>
+			<fechaFin>
+				<dia>25</dia>
+				<mes>06</mes>
+				<anyo>2011</anyo>
+			</fechaFin>
+		</experiencia>
+  	</experienciaProfesional>
+  	<competenciasSP>
+		<competencia tipo="iniciativa" nivel="5">
+			<desc>Trabajador muy proactivo</desc>
+		</competencia>
+  	</competenciasSP>
+  	<datosAdicionales>
+		<aficiones>
+			<aficion>tenis</aficion>
+			<aficion>musica</aficion>
+			<aficion>senderismo</aficion>
+		</aficiones>
+		<disponibilidadViajar>Si</disponibilidadViajar>
+		<vehiculo>si</vehiculo>
+		<licencias>
+			<licencia>A1</licencia>
+			<licencia>B</licencia>
+		</licencias>
+  	</datosAdicionales>
+</cv>

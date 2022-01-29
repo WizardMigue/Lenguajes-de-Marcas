@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marcadores>
+   <marcador tag="1">
+        <nombre>google</nombre>
+        <url>www.google.com</url>
+        <descripcion>navegador web</descripcion>
+   </marcador>
+</marcadores>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taller_de_reparaciones>
+    <vehiculos>
+        <coche>
+            <matricula>5678 CRR</matricula>
+            <marca>Peugeot</marca>
+            <modelo>308</modelo>
+            <reparacion>
+                <consiste>Cambio de aceite y filtros</consiste>
+                <duracion>40 minutos</duracion>
+                <factura id="A-1234" >
+                    <cantidad>110€</cantidad>
+                    <metodo_de_pago>Contado</metodo_de_pago>
+                </factura>
+            <reparacion>
+        </coche>
+        <moto>
+            <matricula>9712 AMZ</matricula>
+            <marca>Honda</marca>
+            <modelo>CB</modelo>
+            <reparacion>
+                <consiste>Reconstrución de chasis</consiste>
+                <duracion>3 dias</duracion>
+                <factura id="M-345" >
+                    <cantidad>1200€</cantidad>
+                    <metodo_de_pago>Transferencia bancaria</metodo_de_pago>
+                </factura>
+            <reparacion>
+        </moto>
+    </vehiculos>
+</taller_de_reparaciones>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arbol [
+  <!ELEMENT arbol (especie+)>
+  <!ELEMENT especie (nombre, variedad, (origen+), color_fruto, maduracion, (riego?), (precio?))>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT variedad (#PCDATA)>
+  <!ELEMENT origen (#PCDATA)>
+  <!ELEMENT color_fruto (#PCDATA)>
+  <!ELEMENT maduracion (#PCDATA)>
+  <!ELEMENT riego (#PCDATA)>
+  <!ELEMENT precio (#PCDATA)>
+]>
+<arbol>
+  <especie>
+    <nombre></nombre>
+    <variedad></variedad>
+    <origen></origen>
+    <origen></origen>
+    <origen></origen>
+    <color_fruto></color_fruto>
+    <maduracion></maduracion>
+    <riego></riego>
+    <precio></precio>
+  </especie>
+  <especie>
+    <nombre></nombre>
+    <variedad></variedad>
+    <origen></origen>
+    <origen></origen>
+    <origen></origen>
+    <color_fruto></color_fruto>
+    <maduracion></maduracion>
+  </especie> 
+  <especie>
+    <nombre></nombre>
+    <variedad></variedad>
+    <origen></origen>
+    <origen></origen>
+    <origen></origen>
+    <color_fruto></color_fruto>
+    <maduracion></maduracion>
+    <riego></riego>
+    <precio></precio>
+  </especie>
+</arbol>

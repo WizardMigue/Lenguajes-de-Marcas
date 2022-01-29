@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo>
+        <nombre>Flat</nombre>
+        <ciudad>Cuenca<ciudad>
+        <entrenador>Pepe</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>juan</nombre>
+                <posicion>delantero</posicion>
+                <nacionalidad>español</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>otto</nombre>
+                <posicion>defensa</posicion>
+                <nacionalidad>aleman</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>jaan</nombre>
+                <posicion>centro</posicion>
+                <nacionalidad>chino</nacionalidad>
+            </jugador>
+        </jugadores>
+    <equipo>
+    <equipo>
+        <nombre>AMZ</nombre>
+        <ciudad>sevilla<ciudad>
+        <entrenador>marc</entrenador>
+        <jugadores>
+            <jugador>
+                <nombre>zin</nombre>
+                <posicion>centro</posicion>
+                <nacionalidad>japones</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>opost</nombre>
+                <posicion>delantero</posicion>
+                <nacionalidad>noruego</nacionalidad>
+            </jugador>
+            <jugador>
+                <nombre>risto</nombre>
+                <posicion>portero</posicion>
+                <nacionalidad>italiano</nacionalidad>
+            </jugador>
+        </jugadores>
+    <equipo>
+</equipos>

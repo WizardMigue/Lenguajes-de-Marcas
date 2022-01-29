@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<datos>
+	<ticket01>
+		<codigo id="001"></codigo>
+		<fecha>06-11-2014</fecha>
+		<hora>14:58:47</hora>
+		<precio>
+			<precioSinIva>29,50</precioSinIva>
+			<cantidadIVA>2,95</cantidadIVA>
+			<pvpTotal>32,45</pvpTotal>
+			<moneda>Euro</moneda>
+			<cantidadAhorro>6,30</cantidadAhorro>
+		</precio>	
+	</ticket01>
+
+	<ticket02>
+		<codigo id="002"></codigo>
+		<fecha>08-10-2021</fecha>
+		<hora>19:53:55</hora>
+		<precio>
+			<precioSinIva>16,45</precioSinIva>
+			<cantidadIVA>1,65</cantidadIVA>
+			<pvpTotal>18,10</pvpTotal>
+			<moneda>Euro</moneda>
+			<cantidadAhorro>3,10</cantidadAhorro>
+		</precio>	
+	</ticket02>
+
+	<ticket03>
+		<codigo id="003"></codigo>
+		<fecha>18-09-2009</fecha>
+		<hora>12:22:44</hora>
+		<precio>
+			<precioSinIva>8,27</precioSinIva>
+			<cantidadIVA>0,83</cantidadIVA>
+			<pvpTotal>9,10</pvpTotal>
+			<moneda>Euro</moneda>
+			<cantidadAhorro>2,50</cantidadAhorro>
+		</precio>	
+	</ticket03>
+</datos>

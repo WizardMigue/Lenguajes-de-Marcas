@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido>
+        <destino>
+            <nombre>Alicia Abad</nombre>
+            <direccion>Plaza de la Duquesa 12</direccion>
+            <ciudad>Albacete</ciudad>
+            <cod>05020</cod>
+        </destino>
+        <origen>
+            <nombre>Roberto Movilla</nombre>
+            <direccion>General Ricardos 56</direccion>
+            <ciudad>Madrid</ciudad>
+            <cod>28055</cod>
+            <fecha>20 de octubre de 2021</fecha>
+        </origen>
+        <productos>
+            <producto cod="872-AA">
+                <nombre>Cortadora de cesped</nombre>
+                <cantidad>1</cantidad>
+                <precio>1480.95€</precio>
+            </producto>
+            <producto cod="926-FH">
+                <nombre>Podadoras para los setos</nombre>
+                <cantidad>3</cantidad>
+                <precio>70.98€</precio>
+            </producto>
+        </productos>
+    </pedido>
+</pedidos>

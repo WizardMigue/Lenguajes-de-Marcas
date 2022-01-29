@@ -1,0 +1,25 @@
+Elementos:
+Any: Indica que nuestro elemento puede contener cualquier cosa.
+Emply: Indica que el elemento no contiene nada.
+
+?: Puede aparecer 0 o 1 vez.
+*: Puede aparecer 0 0 N veces.
++: El elemento puede aparecer 1 o n veces.
+(): Sin simbolo, si o si tiene que aparecer una vez y solo una vez.
+
+Atributos:
+#IMPLIED → El atributo es opcional y no se le asigna ningún valor por defecto.
+#REQUIRED → El atributo es obligatorio, no se le asigna valor por defecto.
+#FIXED → El atributo es opcional y si está presente se le asigna un valor por defecto que será el único valor 
+que el atributo pueda adoptar.
+
+Tipo Atributo:
+CDATA → caracteres textuales
+ENTITY → nombre de una entidad (Que debe declararse en el DTD)
+ENTITIES → una lista de nombres de entidades separadas por espacios
+Enumerado → Una lista de valores, entre los cuales, el atributo debe tomar uno. (v1|v2|...)
+ID → Un identificador único (debe empezar por una letra)
+IDREF → representa el valor de un atributo ID de otro elemento
+IDREFS → hace referencia a uno o varios valores de atributos ID, separados por espacios
+
+(si no se especifica lo contrario, los elementos o atributos son obligatorios):

@@ -1,0 +1,33 @@
+use Peliculas;
+
+SELECT *
+from Actriz
+where Pais = 'España';
+
+SELECT *
+from Director d
+where pais = 'Estados Unidos';
+
+SELECT *
+from Director d
+where Pais = 'España';
+
+SELECT *
+from Actriz
+where fecha_nac;
+
+select *
+from Pelicula p
+WHERE Pelicula (duracion <=100 or duracion >=200);
+
+INSERT into Actriz (nombre, fecha_nac, pais)
+values ('Laurence Fishburne', '1961-07-30', 'Estados Unidos');
+
+INSERT into Papel (id_Pelicula)
+values (3);
+
+INSERT into Pelicula (titulo, duracion, id_Director)
+values ('Ágora', 126, )
+
+insert into Director (nombre, pais)
+values ('Alejandro Fernando Amenábar Cantos', 'Santiago de Chile');

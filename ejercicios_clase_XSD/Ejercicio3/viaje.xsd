@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="viaje">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="fecha" type="xs:date" default="2021-01-31"/>
+				<xs:element name="hora" type="xs:time"/>
+				<xs:element name="precio">
+					<xs:simpleType>
+						<xs:restriction base="xs:decimal">
+							<xs:fractionDigits value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="moneda" type="xs:string" fixed="Euro"/>
+				<xs:element name="descripcion">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:maxLength value="300"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="participantes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="participante" minOccurs="0" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nombre" type="xs:string"/>
+										<xs:element name="apellidos" type="xs:string"/>
+										<xs:element name="nif">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:pattern value="[0-9]{8}[A-Z]"/>
+												</xs:restriction>
+										</xs:simpleType>
+										</xs:element>
+										<xs:element name="fechaNac" type="xs:date"/>
+										<xs:choice>
+											<xs:element name="alumno">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="telfPadres" minOccurs="0">
+															<xs:simpleType>
+																<xs:restriction base="xs:integer">
+																	<xs:pattern value="[0-9]{9}"/>
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:element>
+														<xs:element name="grupo" type="xs:IDREF"/>
+														<xs:element name="menor_de_edad" type="xs:boolean"/>
+														<xs:element name="edad">
+															<xs:simpleType>
+																<xs:restriction base="xs:integer">
+																	<xs:minInclusive value="17"/>	
+																	<xs:maxInclusive value="65"/>
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+											<xs:element name="profesor">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="telf">
+															<xs:simpleType>
+																<xs:restriction base="xs:integer">
+																	<xs:pattern value="[0-9]{9}"/>
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:element>
+														<xs:element name="mail" type="xs:string"/>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:choice>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>			
+				</xs:element>
+				<xs:element name="grupos">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="grupo" minOccurs="1" maxOccurs="2">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="nombre">										
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Desarrollo de Aplicaciones Multimedia - Primer año"/>
+													<xs:enumeration value="Desarrollo de Aplicaciones Multimedia - Segundo año"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="cod" type="xs:ID"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

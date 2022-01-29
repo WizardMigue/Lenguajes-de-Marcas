@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+  <!ELEMENT peliculas (pelicula)>
+  <!ELEMENT pelicula (titulo, (guionista+), productor, director, (actor+), comentarios)>
+  <!ATTLIST pelicula 
+                  tipo CDATA #REQUIRED
+                  sistemas CDATA #REQUIRED
+                  ejemplares CDATA #REQUIRED
+                  año CDATA #REQUIRED>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT guionista (#PCDATA)>
+  <!ELEMENT productor (#PCDATA)>
+  <!ELEMENT director (#PCDATA)>
+  <!ELEMENT actor (#PCDATA)>
+  <!ELEMENT comentarios (#PCDATA)>
+  
+]>
+<peliculas>
+  <pelicula tipo="comedia" sistemas="PG-13" ejemplares="5" año="1987">
+    <titulo> Raising Arizon </titulo>
+    <guionista> Ethan Coen </guionista>
+    <guionista> Joel Coen </guionista>
+    <productor> Ethan Coen </productor>
+    <director> Joel Coen </director>
+    <actor> Holly Hunter </actor>
+    <actor> John Goodman</actor>
+    <comentarios>Una película clásica de Comedia</comentarios>
+  </pelicula>
+</peliculas>

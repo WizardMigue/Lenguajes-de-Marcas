@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"  standalone="no"?>
+<!DOCTYPE cv SYSTEM "Apartado5.dtd" >
+
+<cv>
+  	<datosPersonales foto="../miFoto.png">
+		<nombre>Manuel</nombre>
+		<apellidos>López Obrador</apellidos>
+		<fechaNac>
+			<dia>22</dia>
+			<mes>12</mes>
+			<anyo>1989</anyo>
+		</fechaNac>
+		<lugarNac>Albacete</lugarNac>
+		<nacionalidades>
+			<nacionalidad>española</nacionalidad>
+			<nacionalidad>francesa</nacionalidad>
+		</nacionalidades>
+		<nif>12345678A</nif>
+  	</datosPersonales>
+  	<datosContacto>
+		<calle tipoVia="Plaza">España</calle>
+		<numero>12</numero>
+		<postal>IV</postal>
+		<escalera>a</escalera>
+		<piso>1</piso>
+		<puerta>B</puerta>
+		<cp>02002</cp>
+		<pais>España</pais>
+		<email>miCorreo@servidor.org</email>
+		<movil>555668877</movil>
+		<telfs>
+			<telf>888441122</telf>
+			<telf>888556633</telf>
+		</telfs>
+  	</datosContacto>
+  	<datosContactoAdicional>
+		<web>https://www.miweb.com</web>
+		<linkedin>Miusuario</linkedin>
+		<facebook/>
+  	</datosContactoAdicional>
+  	<formacion>
+		<estudio nivel="medio">
+			<nombre>ESO</nombre>
+			<lugar>IES Ramon y Cajal</lugar>
+			<fechaInicio>
+				<dia>17</dia>
+				<mes>09</mes>
+				<anyo>2005</anyo>
+			</fechaInicio>
+			<fechaFin>
+				<dia>25</dia>
+				<mes>06</mes>
+				<anyo>2011</anyo>
+			</fechaFin>
+		</estudio>
+  	</formacion>
+  	<idiomas>
+		<idioma nivel="bajo" materno="no">
+			<nombre>&fr;</nombre>
+			<organismo oficial="si">Le École Baguette </organismo>
+		</idioma>
+  	</idiomas>
+  	<experienciaProfesional>
+		<experiencia>
+			<empresa>Informatica S.L.</empresa>
+			<puesto>Programador</puesto>
+			<fechaInicio>
+				<dia>17</dia>
+				<mes>09</mes>
+				<anyo>2005</anyo>
+			</fechaInicio>
+			<fechaFin>
+				<dia>25</dia>
+				<mes>06</mes>
+				<anyo>2011</anyo>
+			</fechaFin>
+		</experiencia>
+  	</experienciaProfesional>
+  	<competenciasSP>
+		<competencia tipo="iniciativa" nivel="5">
+			<desc>Trabajador muy proactivo</desc>
+		</competencia>
+  	</competenciasSP>
+  	<datosAdicionales>
+		<aficiones>
+			<aficion>tenis</aficion>
+			<aficion>musica</aficion>
+			<aficion>senderismo</aficion>
+		</aficiones>
+		<disponibilidadViajar>Si</disponibilidadViajar>
+		<vehiculo>si</vehiculo>
+		<licencias>
+			<licencia>A1</licencia>
+			<licencia>B</licencia>
+		</licencias>
+  	</datosAdicionales>
+</cv>

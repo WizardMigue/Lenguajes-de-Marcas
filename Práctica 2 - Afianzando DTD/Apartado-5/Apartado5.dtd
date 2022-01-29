@@ -1,0 +1,73 @@
+<!ELEMENT curriculum (cv+)>
+<!ELEMENT cv (datosPersonales, datosContacto, (datosContactoAdicional?), formacion, idiomas, experienciaProfesional, competenciasSP, datosAdicionales)>
+<!ATTLIST datosPersonales 
+                    foto CDATA #REQUIRED >
+<!ELEMENT datosPersonales (nombre, apellidos, fechaNac, lugarNac, nacionalidades, (nif | nie))>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT fechaNac (dia, mes, anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT lugarNac (#PCDATA)>
+<!ELEMENT nacionalidades (nacionalidad+)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT nie (#PCDATA)>
+<!ELEMENT datosContacto (calle, (numero?), (postal?), (escalera?), (piso?), (puerta?), cp, pais, email, movil, telfs)>
+<!ELEMENT calle (#PCDATA)>
+<!ATTLIST calle 
+                          tipoVia (Plaza | Calle | Avenida) #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT postal (#PCDATA)>
+<!ELEMENT escalera (#PCDATA)>
+<!ELEMENT piso (#PCDATA)>
+<!ELEMENT puerta (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT movil (#PCDATA)>
+<!ELEMENT telfs (telf*)>
+<!ELEMENT telf (#PCDATA)>
+<!ELEMENT datosContactoAdicional (web, linkedin, facebook)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT linkedin (#PCDATA)>
+<!ELEMENT facebook EMPTY>
+<!ELEMENT formacion (estudio+)>
+<!ELEMENT estudio (nombre, lugar, fechaInicio, fechaFin)>
+<!ATTLIST estudio 
+                          nivel (basico | medio |superior) #REQUIRED>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT fechaInicio (dia, mes, anyo)>
+<!ELEMENT fechaFin (dia, mes, anyo)>
+<!ELEMENT idiomas (idioma*)>
+<!ELEMENT idioma (nombre, organismo)>
+<!ATTLIST idioma 
+	                        nivel (alto | medio | bajo) "medio"
+	                        materno (no | si) #FIXED "no" >
+<!ENTITY en "Inglés">
+<!ENTITY es "Español">
+<!ENTITY de "Alemán">
+<!ENTITY it "Italiano">
+<!ENTITY fr "Francés">
+<!ELEMENT organismo (#PCDATA)>
+<!ATTLIST organismo 
+                          oficial (no | si) #FIXED "si" >
+                          
+<!ELEMENT experienciaProfesional (experiencia)*>
+<!ELEMENT experiencia (empresa, (puesto?), fechaInicio, fechaFin)>
+<!ELEMENT empresa (#PCDATA)>
+<!ELEMENT puesto (#PCDATA)>
+<!ELEMENT competenciasSP (competencia*)>
+<!ATTLIST competencia 
+                          tipo (liderezgo | trabajoenequipo | iniciativa) #REQUIRED
+                          nivel (1 | 2 | 3 | 4 |5 ) #IMPLIED>
+<!ELEMENT competencia (desc)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT datosAdicionales (aficiones, disponibilidadViajar, vehiculo, licencias)>
+<!ELEMENT aficiones (aficion*)>
+<!ELEMENT aficion (#PCDATA)>
+<!ELEMENT disponibilidadViajar (#PCDATA)>
+<!ELEMENT vehiculo (#PCDATA)>
+<!ELEMENT licencias (licencia*)>
+<!ELEMENT licencia (#PCDATA)>
