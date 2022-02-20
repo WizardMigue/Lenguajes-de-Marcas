@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE libreria [
+    <!ELEMENT libreria (lista_libros, lista_categorias)>
+    <!ELEMENT lista_libros (producto+)>
+    <!ATTLIST producto codigo IDREFS #REQUIRED>
+    <!ELEMENT producto (titulo,(editor)?, autor, precio, cantidad)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editor (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT cantidad (#PCDATA)>
+    <!ELEMENT lista_categorias (categoria+)>
+    <!ELEMENT categoria EMPTY>
+    <!ATTLIST categoria 
+                    codigo ID #REQUIRED
+                    Genero CDATA #REQUIRED
+                    Comentario CDATA #IMPLIED>
+]>
+<libreria>
+	<lista_libros>
+		<producto codigo="C">
+			<titulo>Number, the Language of Science</titulo>
+			<autor>Danzig</autor>
+			<precio>5,95</precio>
+			<cantidad>3</cantidad>
+		</producto>
+		<producto codigo="P">
+			<titulo>Morrison Ecrits</titulo>
+			<editor>Christian Bourgois Editeur</editor>
+			<autor>Jim Morrison</autor>
+			<precio>43</precio>
+			<cantidad>5</cantidad>
+		</producto>
+		<producto codigo="I">
+			<titulo>WI-FI 6 soluciones para su empresa</titulo>
+			<autor>Laurence Soyer</autor>
+			<precio>NC</precio>
+			<cantidad>15</cantidad>
+		</producto>
+		<producto codigo="N">
+			<titulo>¡A la cama!</titulo>
+			<autor>David Baddiel</autor>
+			<precio>7,50</precio>
+			<cantidad>2</cantidad>
+		</producto>
+	</lista_libros>
+	<lista_categorias>
+		<categoria codigo="C"
+		           Genero="Ciencia"/>
+		<categoria codigo="P"
+		           Genero="Poesía"
+		           Comentario="Edición Limitada"/>
+		<categoria codigo="I"
+		           Genero="Informática"/>
+		<categoria codigo="D"
+		           Genero="Derecho"/>
+		<categoria codigo="N"
+		           Genero="Novela"/>
+	</lista_categorias>
+</libreria>
