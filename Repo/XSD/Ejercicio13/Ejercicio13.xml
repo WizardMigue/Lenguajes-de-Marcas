@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<precios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio13.xsd">
+ <precio moneda="Euro">5</precio>
+ <precio moneda="Dólar">6.2</precio>
+ <precio moneda="Libra esterlina">4.3</precio>
+</precios>
