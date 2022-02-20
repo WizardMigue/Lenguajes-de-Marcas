@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE lista_compra SYSTEM "parte1.dtd">
+<lista_compra>
+	<producto cod="p1234" idioma="ES">
+		<nombre>Chocolate</nombre>
+		<cantidad>2</cantidad>
+		<saludable>false</saludable>
+		<marca clase="normal">Nestle</marca>
+		<ingredientes>
+			<ingrediente>pasta de cacao</ingrediente>
+			<ingrediente>leche</ingrediente>
+		</ingredientes>
+		<localizador_num>16785</localizador_num>
+	</producto>
+	<producto cod="p1235">
+		<nombre fecha_caducidad="2022-03-12">Pechuga de pavo</nombre>
+		<cantidad>5</cantidad>
+		<saludable>true</saludable>
+		<ingredientes>
+			<ingrediente>pechuga de pavo</ingrediente>
+			<ingrediente>agua</ingrediente>
+			<ingrediente>sal</ingrediente>
+		</ingredientes>
+		<localizador_text>1376AJgh</localizador_text>
+	</producto>
+</lista_compra>

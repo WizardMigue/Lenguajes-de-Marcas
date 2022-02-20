@@ -147,7 +147,7 @@
                 <xs:element name="localizador">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
-                            <xs:pattern value="[A-Z][A-Z][A-Z]([0-9])+([a-z])*[ACE]"></xs:pattern>
+                            <xs:pattern value="[A-Z]{3}([0-9])+([a-z])*[ACE]"></xs:pattern>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>

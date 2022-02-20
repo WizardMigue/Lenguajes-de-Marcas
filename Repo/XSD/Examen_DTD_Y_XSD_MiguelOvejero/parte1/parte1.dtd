@@ -1,0 +1,15 @@
+<!ELEMENT lista_compra (producto*)>
+<!ELEMENT producto (nombre, cantidad, saludable, (marca?), ingredientes, (localizador_num | localizador_text ))>
+<!ATTLIST producto 
+                cod ID #REQUIRED
+                idioma CDATA #FIXED "ES">
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre fecha_caducidad CDATA "1900-01-01" >
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT saludable (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ATTLIST marca clase (blanca | normal | premium) #REQUIRED>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT localizador_text (#PCDATA)>
+<!ELEMENT localizador_num (#PCDATA)>
