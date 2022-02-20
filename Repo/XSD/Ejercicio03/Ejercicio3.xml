@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<viaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="Ejercicio3.xsd">
+	<fecha>2021-01-31</fecha>
+	<hora>06:30:00</hora>
+	<precio>25.5</precio>
+	<moneda>Euro</moneda>
+	<descripcion>Los alumnos de grado superior nos vamos de excursión al superordenador Mare Nostrum situado en la cosmopolita ciudad de Barcelona.</descripcion>
+	<participantes> 
+		<participante>
+			<nombre>Juan Ignacio</nombre>
+			<apellidos>Farrano</apellidos>
+			<nif>16483729A</nif>
+			<fechaNac>1985-10-10</fechaNac>
+			<profesor>
+				<telf>555444444</telf>
+				<mail>jif@sierradeguara.com</mail>
+			</profesor>
+		</participante>
+		<participante>
+			<nombre>Marco</nombre>
+			<apellidos>Sertorio</apellidos>
+			<nif>11111116B</nif>
+			<fechaNac>2000-05-05</fechaNac>
+			<alumno>
+				<telfPadres>555222222</telfPadres>
+				<grupo>IDM1</grupo>
+				<menor_de_edad>false</menor_de_edad>
+				<edad>21</edad>
+			</alumno>
+		</participante>
+	</participantes>
+	<grupos>
+		<grupo>
+			<nombre>Desarrollo de Aplicaciones Multimedia - Primer año</nombre>
+			<cod>IDM1</cod>
+		</grupo>
+		<grupo>
+			<nombre>Desarrollo de Aplicaciones Multimedia - Segundo año</nombre>
+			<cod>IDM2</cod>
+		</grupo>
+	</grupos>
+</viaje>

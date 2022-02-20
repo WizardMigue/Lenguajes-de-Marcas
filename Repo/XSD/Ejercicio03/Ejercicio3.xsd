@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="viaje">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fecha" type="xs:date" fixed="2021-01-31"></xs:element>
+                <xs:element name="hora" type="xs:time"></xs:element>
+                <xs:element name="precio">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:decimal">
+                            <xs:fractionDigits value="1"></xs:fractionDigits>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="moneda" type="xs:string" fixed="Euro" ></xs:element>
+                <xs:element name="descripcion">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string" >
+                            <xs:maxLength value="300"></xs:maxLength>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="participantes">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="participante" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                        <xs:element name="apellidos" type="xs:string"></xs:element>
+                                        <xs:element name="nif">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:pattern value="[0-9]+[A-Z]"></xs:pattern>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="fechaNac" type="xs:date"></xs:element>
+                                        <xs:choice>
+                                            <xs:element name="profesor">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="telf">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:integer">
+                                                                    <xs:totalDigits value="9"></xs:totalDigits>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:element>
+                                                        <xs:element name="mail" type="xs:string"></xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="alumno">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element name="telfPadres" minOccurs="0" maxOccurs="unbounded">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:integer">
+                                                                    <xs:totalDigits value="9"></xs:totalDigits>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:element>
+                                                        <xs:element name="grupo" type="xs:IDREFS"></xs:element>
+                                                        <xs:element name="menor_de_edad" type="xs:boolean" ></xs:element>
+                                                        <xs:element name="edad">
+                                                            <xs:simpleType>
+                                                                <xs:restriction base="xs:integer">
+                                                                    <xs:maxInclusive value="65"></xs:maxInclusive>
+                                                                    <xs:minInclusive value="17"></xs:minInclusive>
+                                                                </xs:restriction>
+                                                            </xs:simpleType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:choice>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="grupos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="grupo" minOccurs="0" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombre" type="xs:string"></xs:element>
+                                        <xs:element name="cod" type="xs:ID" ></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

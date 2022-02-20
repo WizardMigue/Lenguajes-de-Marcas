@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="alumnos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumno" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string" ></xs:element>
+                            <xs:element name="direccion" minOccurs="1" maxOccurs="2">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="calle" type="xs:string"></xs:element>
+                                        <xs:element name="numero" type="xs:integer" ></xs:element>
+                                        <xs:element name="ciudad" type="xs:string"></xs:element>
+                                        <xs:element name="provincia">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Badajoz"></xs:enumeration>
+                                                    <xs:enumeration value="Cáceres"></xs:enumeration>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="telefono" minOccurs="0" maxOccurs="5" >
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:pattern value="[0-9]+"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="dni">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[0-9]{8}[A-Z]"></xs:pattern>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

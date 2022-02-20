@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="Ejercicio2.xsd">
+	<pelicula>
+		<titulo>La vida es bella</titulo>
+		<minutos>138</minutos>
+		<datos_adicionales>
+			<director>Nombre1</director>
+			<productor>Nombre2</productor>			
+		</datos_adicionales>
+		<tieneOscar>false</tieneOscar>
+	</pelicula>
+	<pelicula>
+		<titulo>La isla mínima</titulo>
+		<datos_adicionales>
+			<productor>Nombre3</productor>	
+			<director>Nombre4</director>
+		</datos_adicionales>
+		<tieneGoya>false</tieneGoya>
+	</pelicula>
+ </peliculas>
