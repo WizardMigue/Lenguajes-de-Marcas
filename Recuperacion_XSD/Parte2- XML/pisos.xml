@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inmobiliaria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="pisos.xsd" >
+	<piso ident="p111">
+		<localizacion>San Jorge</localizacion>
+		<operacion tipo="alquiler">Segunda mano</operacion>	
+		<observaciones>
+			<observacion>piso centrico</observacion>
+			<observacion>precisa reforma</observacion>
+		</observaciones>
+		<precio_alquiler>500</precio_alquiler>
+		<referencia>piGHWP475</referencia>
+		<tiene_ascensor>false</tiene_ascensor>	
+		<fecha_disponible>2022-03-20</fecha_disponible>
+	</piso>
+	<piso ident="p112">
+		<localizacion descr="avenida">Martinez de Velasco</localizacion>
+		<operacion tipo="venta">Obra nueva</operacion>		
+		<observaciones>
+			<observacion>todo exterior</observacion>
+			<observacion>muy luminoso</observacion>
+			<observacion>materiales de calidad</observacion>
+		</observaciones>
+		<precio_venta moneda="euro">267000</precio_venta>
+		<referencia>ueGHW123</referencia>
+		<tiene_ascensor>true</tiene_ascensor>
+	</piso>
+</inmobiliaria>

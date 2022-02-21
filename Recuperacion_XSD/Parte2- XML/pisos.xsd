@@ -1,0 +1,207 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="inmobiliaria">
+        <xs:annotation>
+            <xs:documentation>
+                Contiene la etiqueta raiz inmobiliaria con sus hijos piso que pueden aparecer 0 o N veces
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="piso" minOccurs="0" maxOccurs="unbounded">
+                    <xs:annotation>
+                        <xs:documentation>
+                            Contiene la etiqueta piso con sus hijos localizacion, operacion, observaciones, precio_alquiler o precio_venta, referencia,
+                            tiene_ascensor y fecha_disponible
+                        </xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="localizacion" maxOccurs="1">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta localizacion donde indica que debe aparecer una sola vez
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Especifica un contenido simple donde incluye una etiqueta extension que especifica que el contenido es de tipo cadena.
+                                                    Y dentro hay un atributo llamado desc
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:attribute name="descr" type="xs:string" use="optional" default="calle">
+                                                <xs:annotation>
+                                                    <xs:documentation>
+                                                        Especifica que este atributo es opcional y cuyo valor por defecto es calle
+                                                    </xs:documentation>
+                                                </xs:annotation>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="operacion">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta operacion que representa la informacion de interes del piso
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Especifica que es un contenido simple que incluye una etiqueta extension donde especifica que su contenido
+                                                    es de tipo cadena. Dentro tiene un atributo llamado tipo
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:attribute name="tipo" use="required">
+                                                <xs:annotation>
+                                                    <xs:documentation>
+                                                        Especifica que este atributo es obligatorio
+                                                    </xs:documentation>
+                                                </xs:annotation>
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:annotation>
+                                                            <xs:documentation>
+                                                                Especifica que su contenido es de tipo cadena y cuyo valor solo puede ser venta o alquiler
+                                                            </xs:documentation>
+                                                        </xs:annotation>
+                                                        <xs:enumeration value="venta"></xs:enumeration>
+                                                        <xs:enumeration value="alquiler"></xs:enumeration>
+                                                    </xs:restriction>
+                                                </xs:simpleType>
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="observaciones" maxOccurs="1" >
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta observaciones que esta presente una sola vez y contiene la etiqueta hijo observacion y engloba una 
+                                        lista de observaciones de un piso
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="observacion" type="xs:string"  minOccurs="2" maxOccurs="5">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Contiene la etiqueta observacion donde indica que su contenido es de tipo cadena y debe aparecer minimo 2 veces
+                                                    y maximo 5 veces
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:choice>
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene las etiquetas precio_alquiler y precio_venta donde solo puede aparecer uno u otro pero no los dos a la vez
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:element name="precio_alquiler">
+                                    <xs:annotation>
+                                        <xs:documentation>
+                                            Contiene la etiqueta precio_alquiler referente a un piso
+                                        </xs:documentation>
+                                    </xs:annotation>
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:integer">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Especifica que el contenido de la etiqueta precio_alquiler es de tipo entero con un rango minimo de 326
+                                                    y un rango maximo de 1000
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                            <xs:minInclusive value="326"></xs:minInclusive>
+                                            <xs:maxInclusive value="1000"></xs:maxInclusive>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="precio_venta">
+                                    <xs:annotation>
+                                        <xs:documentation>
+                                            Contiene la etiqueta precio_venta referente a un piso
+                                        </xs:documentation>
+                                    </xs:annotation>
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:integer">
+                                                <xs:annotation>
+                                                    <xs:documentation>
+                                                        Especifica que el contenido de la etiqueta precio_venta es de tipo entero y contiene un atributo llamado
+                                                        moneda
+                                                    </xs:documentation>
+                                                </xs:annotation>
+                                                <xs:attribute name="moneda" type="xs:string" use="optional" fixed="euro">
+                                                    <xs:annotation>
+                                                        <xs:documentation>
+                                                            Especifica que el contenido del atributo moneda es de tipo cadena, es opcional y cuyo valor fijo es euro
+                                                        </xs:documentation>
+                                                    </xs:annotation>
+                                                </xs:attribute>
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:choice>
+                            <xs:element name="referencia" maxOccurs="1" >
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta referencia del piso donde debe aparecer una sola vez
+                                    </xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:annotation>
+                                            <xs:documentation>
+                                                Especifica que su contenido es de tipo cadena
+                                            </xs:documentation>
+                                        </xs:annotation>
+                                        <xs:pattern value="[a-z]{2}([A-Z]*)[0-9]{3}">
+                                            <xs:annotation>
+                                                <xs:documentation>
+                                                    Especifica el formato del contenido de la etiqueta referencia que debe contener 2 letras minusculas, 
+                                                    0 o N letras mayusculas y seguido de 3 digitos
+                                                </xs:documentation>
+                                            </xs:annotation>
+                                        </xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="tiene_ascensor" maxOccurs="1" type="xs:boolean">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta tiene_ascensor donde debe aparecer una sola vez y su contenido es de tipo boolean
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                            <xs:element name="fecha_disponible" type="xs:date" minOccurs="0" maxOccurs="1">
+                                <xs:annotation>
+                                    <xs:documentation>
+                                        Contiene la etiqueta fecha_disponible que indica cuando estara libre un piso. Esta etiqueta no puede aparecer o puede aparecer
+                                        una unica vez y indica que su contenido es de tipo fecha.
+                                    </xs:documentation>
+                                </xs:annotation>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="ident" type="xs:ID" use="required">
+                            <xs:annotation>
+                                <xs:documentation>
+                                    Especifica el atributo de la etiqueta piso cuyo valor es de tipo ID que tiene que contener un identificador unico y el atributo es 
+                                    obligatorio
+                                </xs:documentation>
+                            </xs:annotation>
+                        </xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
