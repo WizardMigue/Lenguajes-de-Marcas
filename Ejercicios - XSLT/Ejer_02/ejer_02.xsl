@@ -13,11 +13,13 @@
                         <th>Genre</th>
                         <th>Year</th>
                         <xsl:for-each select="Movies/Movie" >
+                            <xsl:if test="Year>1980">
                             <tr>
                                 <td><xsl:value-of select="Title"/></td>
                                 <td><xsl:value-of select="Genre"/></td>
                                 <td><xsl:value-of select="Year"/></td>
                             </tr>
+                            </xsl:if>
                         </xsl:for-each>
                     </tr>
                 </table>
