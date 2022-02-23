@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ejer_13.xsl"?>
+<muebles>
+	<mueble cod="MC101">
+		<tipo>Encimera</tipo>
+		<precio>2796.235</precio>
+	</mueble>
+	<mueble cod="MB113">
+		<tipo>Inodoro</tipo>
+		<precio>276.643</precio>
+	</mueble>
+	<mueble cod="MS165">
+		<tipo>Mueble tele</tipo>
+		<precio>10325.563</precio>
+	</mueble>
+</muebles>

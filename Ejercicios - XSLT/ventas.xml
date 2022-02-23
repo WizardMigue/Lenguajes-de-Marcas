@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="ejer_10.xsl"?>
+<ventas>
+	<resumen>
+		<titulo>Informe de ventas</titulo>
+		<descripcion>Ventas de Aragón en el año 2021</descripcion>
+	</resumen>
+	<datos>
+		<provincia>
+			<nombre>Zaragoza</nombre>
+			<trimestre numero="1" cantidad="24000"/>
+			<trimestre numero="2" cantidad="38600"/>
+			<trimestre numero="3" cantidad="44030"/>
+			<trimestre numero="4" cantidad="21000"/>
+		</provincia>
+		<provincia>
+			<nombre>Huesca</nombre>
+			<trimestre numero="1" cantidad="11000"/>
+			<trimestre numero="2" cantidad="16080"/>
+			<trimestre numero="3" cantidad="25000"/>
+			<trimestre numero="4" cantidad="29000"/>
+		</provincia>
+		<provincia>
+			<nombre>Teruel</nombre>
+			<trimestre numero="1" cantidad="27000"/>
+			<trimestre numero="2" cantidad="31400"/>
+			<trimestre numero="3" cantidad="40100"/>
+			<trimestre numero="4" cantidad="30000"/>
+		</provincia>
+	</datos>
+</ventas>

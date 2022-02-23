@@ -12,15 +12,17 @@
                         <th>Title</th>
                         <th>Genre</th>
                         <th>Year</th>
-                        <xsl:for-each select="Movies/Movie" >
-                            <xsl:if test="Year &lt; 1900 "/>
+                    </tr>
+                    <xsl:for-each select="Movies/Movie">
+                        <xsl:sort select="Year" order="descending"></xsl:sort>
+                        <xsl:if test="Year &gt; 1989 and Year &lt; 2000">
                             <tr>
                                 <td><xsl:value-of select="Title"/></td>
                                 <td><xsl:value-of select="Genre"/></td>
                                 <td><xsl:value-of select="Year"/></td>
                             </tr>
-                        </xsl:for-each>
-                    </tr>
+                        </xsl:if>
+                    </xsl:for-each>
                 </table>
             </body>
         </html>
