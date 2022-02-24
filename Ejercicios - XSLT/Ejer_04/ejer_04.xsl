@@ -16,20 +16,29 @@
                     <th>Director</th>
                 </tr>
                 <xsl:for-each select="Movies/Movie">
-                    <tr>
-                      <td><xsl:value-of select="Title"/></td>
-                      <td><xsl:value-of select="Genre"/></td>
-                      <td><xsl:value-of select="Year"/></td>
-                      <td><xsl:value-of select="Rating"/></td>
-                      <td><xsl:value-of select="Director"/></td>
-                    </tr>
-                  <xsl:choose>
-                    <xsl:when test="Rating">
-                        
-                    </xsl:when>
-                    <xsl:when test="Rating"></xsl:when>
-                    <xsl:otherwise></xsl:otherwise>
-                  </xsl:choose>
+                  <tr>
+                    <td><xsl:value-of select="Title"/></td>
+                    <td><xsl:value-of select="Genre"/></td>
+                    <td><xsl:value-of select="Year"/></td>
+                    <xsl:choose>
+                      <xsl:when test="@rating = 'G'">
+                        <td bgcolor="green">
+                          Todos los públicos
+                        </td>
+                      </xsl:when>
+                      <xsl:when test="@rating = 'R'">
+                        <td bgcolor="red">
+                          Restringido para menores de edad
+                        </td>
+                      </xsl:when>
+                      <xsl:otherwise>
+                        <td bgcolor="orange">
+                          Otras restricciones
+                        </td>
+                      </xsl:otherwise>
+                    </xsl:choose>
+                    <td><xsl:value-of select="contac(Director/Name/First,'_',Director/Name/Last)"/></td>
+                  </tr>
                 </xsl:for-each>
               </table>
             </body>

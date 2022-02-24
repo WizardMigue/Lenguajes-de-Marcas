@@ -14,8 +14,8 @@
                         <th>Year</th>
                     </tr>
                     <xsl:for-each select="Movies/Movie">
-                        <xsl:sort select="Year" order="descending"></xsl:sort>
-                        <xsl:if test="Year &gt; 1989 and Year &lt; 2000">
+                        <xsl:sort select="Year" order="descending"/>
+                        <xsl:if test="Year>=1990 and Year&lt;2000">
                             <tr>
                                 <td><xsl:value-of select="Title"/></td>
                                 <td><xsl:value-of select="Genre"/></td>
