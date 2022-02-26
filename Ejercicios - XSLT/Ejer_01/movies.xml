@@ -1,5 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<?xml-stylesheet href="ejer_01:xsl" type="text/xsl"?>
+<?xml-stylesheet type="text/xsl" href="ejer_01.xsl" ?>
+<Movies>
     <Movie rating="R">
         <Title runtime="177">The Godfather</Title>
         <Genre>Crime Drama</Genre>
