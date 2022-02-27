@@ -1,4 +1,9 @@
-﻿[int]$nota = Read-Host "Introduce la nota obtenida: "
+﻿# @autor: Miguel Ovejero Piedrafita
+# Version 1.0
+# Descripción: Establece un parametro en el que solicita al usuario introducir un número entero.
+
+
+[int]$nota = Read-Host "Introduce la nota obtenida: "
 
 if( $nota -ile 4){
     Write-Host "Insuficiente"
