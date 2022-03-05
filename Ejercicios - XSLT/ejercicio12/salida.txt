@@ -1,0 +1,22 @@
+COMMON PLANT|BOTANICAL PLANT|ZONE PLANT|LIGHT|PRICE
+Bloodroot|Sanguinaria canadensis|4|Mostly Shady|12.44
+Columbine|Aquilegia canadensis|3|Mostly Shady|19.37
+Marsh Marigold|Caltha palustris|4|Mostly Sunny|6.81
+Cowslip|Caltha palustris|4|Mostly Shady|9.90
+Dutchman's-Breeches|Dicentra cucullaria|3|Mostly Shady|6.44
+Ginger, Wild|Asarum canadense|3|Mostly Shady|9.03
+Hepatica|Hepatica americana|4|Mostly Shady|4.45
+Liverleaf|Hepatica americana|4|Mostly Shady|3.99
+Jack-In-The-Pulpit|Arisaema triphyllum|4|Mostly Shady|3.23
+Mayapple|Podophyllum peltatum|3|Mostly Shady|2.98
+Phlox, Woodland|Phlox divaricata|3|Sun or Shade|2.80
+Phlox, Blue|Phlox divaricata|3|Sun or Shade|5.59
+Violet, Dog-Tooth|Erythronium americanum|4|Shade|9.04
+Trout Lily|Erythronium americanum|4|Shade|6.94
+Adder's-Tongue|Erythronium americanum|4|Shade|9.58
+Bee Balm|Monarda didyma|4|Shade|4.59
+Bergamot|Monarda didyma|4|Shade|7.16
+Buttercup|Ranunculus|4|Shade|2.57
+Crowfoot|Ranunculus|4|Shade|9.34
+Gentian|Gentiana|4|Sun or Shade|7.81
+Blue Gentian|Gentiana|4|Sun or Shade|8.56

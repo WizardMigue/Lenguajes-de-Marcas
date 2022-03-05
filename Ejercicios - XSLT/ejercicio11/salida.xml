@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+	<libro>
+		<nombre>Number, the Language of Science</nombre>
+		<categoria>Ciencia</categoria>
+		<stock>Últimas unidades</stock>
+		<precio_iva>7.2</precio_iva>
+		<autor>Danzig</autor>
+	</libro>
+	<libro>
+		<nombre>Morrison Ecrits</nombre>
+		<categoria>Poesía</categoria>
+		<stock>Unidades disponibles</stock>
+		<precio_iva>52.03</precio_iva>
+		<autor>Jim Morrison</autor>
+	</libro>
+	<libro>
+		<nombre>WI-FI 6 soluciones para su empresa</nombre>
+		<categoria>Informática</categoria>
+		<stock>Unidades disponibles</stock>
+		<precio_iva>No consta</precio_iva>
+		<autor>Laurence Soyer</autor>
+	</libro>
+	<libro>
+		<nombre>A la cama</nombre>
+		<categoria>Novela</categoria>
+		<stock>Últimas unidades</stock>
+		<precio_iva>9.08</precio_iva>
+		<autor>David Baddiel</autor>
+	</libro>
+</libros>

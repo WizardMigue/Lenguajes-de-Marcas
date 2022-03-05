@@ -1,0 +1,4 @@
+COD_MUEBLE;NOMBRE;CLASIFICACION;PRECIO;REFERENCIA
+MC101;Encimera;Mueble de cocina;2.796,24;MC-ime
+MB113;Inodoro;Mueble de baño;276,64;MB-dor
+MS165;Mueble tele;Mueble de salón;10.325,56;MS-ble

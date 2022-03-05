@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos_ventas>
+	<T1 provincia="Zar">24000</T1>
+	<T2 provincia="Zar">38600</T2>
+	<T3 provincia="Zar">44030</T3>
+	<T4 provincia="Zar">21000</T4>
+	<T1 provincia="Hue">11000</T1>
+	<T2 provincia="Hue">16080</T2>
+	<T3 provincia="Hue">25000</T3>
+	<T4 provincia="Hue">29000</T4>
+	<T1 provincia="Ter">27000</T1>
+	<T2 provincia="Ter">31400</T2>
+	<T3 provincia="Ter">40100</T3>
+	<T4 provincia="Ter">30000</T4>
+	<Total_T1>62000</Total_T1>
+	<Total_T2>86080</Total_T2>
+	<Total_T3>109130</Total_T3>
+	<Total_T4>80000</Total_T4>
+	<comentarios>Ventas de Aragón</comentarios>
+</datos_ventas>
