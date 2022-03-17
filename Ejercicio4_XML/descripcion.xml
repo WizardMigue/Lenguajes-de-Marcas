@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<descripcion>
+	<entrada>
+		<nombre>Flareon</nombre>
+		<num_pokedex>136</num_pokedex>
+		<comentario>Una vez que ha almacenado el calro suficiente puede alcanzar una temperatura de 900ºC</comentario>	
+	</entrada>
+	<entrada>
+		<nombre>Espeon</nombre>
+		<num_pokedex>134</num_pokedex>
+		<comentario>Cuando las aletas de Vaporeon comienzan a vibrar, significa que lloverá en las proximas horas</comentario>
+	</entrada>
+		<entrada>
+		<nombre>Magneton</nombre>
+		<num_pokedex>82</num_pokedex>
+		<comentario>Genera potentes ondas de radio con las que examina el entorno</comentario>
+	</entrada>
+</descripcion>
