@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.xsl" type="text/xsl"?>
+<CDs>
+    <cd>
+        <Title>Empire Buslesque</Title>
+        <Artist>Bob Dylan</Artist>
+        <Year>1985</Year>
+    </cd>
+    <cd>
+        <Title>Hide your heart</Title>
+        <Artist>Bonnie Tyler</Artist>
+        <Year>1988</Year>
+    </cd>
+    <cd>
+        <Title>Greatest Hits</Title>
+        <Artist>Dolly Parton</Artist>
+        <Year>1982</Year>
+    </cd>
+    <cd>
+        <Title>Still got the blues</Title>
+        <Artist>Gary Moore</Artist>
+        <Year>1990</Year>
+    </cd>
+    <cd>
+        <Title>Eros</Title>
+        <Artist>Eros Ramazzotti</Artist>
+        <Year>1997</Year>
+    </cd>
+</CDs>
