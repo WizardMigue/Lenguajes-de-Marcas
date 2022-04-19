@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ligas>
+    <liga_super_ball>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </liga_super_ball>
+    <liga_ultra_ball>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </liga_ultra_ball>
+    <liga_master_ball>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </liga_master_ball>
+    <copa_halloween>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </copa_halloween>
+    <copa_valodor>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </copa_valodor>
+    <copa_captura>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </copa_captura>
+    <copa_elemental>
+        <equipo>
+            <pokemon>
+
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+            <pokemon>
+                
+            </pokemon>
+        </equipo>
+    </copa_elemental>
+</ligas>
