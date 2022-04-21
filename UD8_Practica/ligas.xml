@@ -10,7 +10,7 @@
                         <a_nombre>Látigo Cepa</a_nombre>
                         <potencia>8</potencia>
                     </ataque>
-                    <ataque> 
+                    <ataque>
                         <a_nombre>Planta Feroz</a_nombre>
                         <potencia>12</potencia>
                     </ataque>
@@ -20,7 +20,7 @@
                 <pc>1287</pc>
             </pokemon>
             <pokemon>
-                <nombre>Altariaaaaaaaaaaaa</nombre>
+                <nombre>Altaria</nombre>
                 <ataques>
                     <ataque>
                         <a_nombre>Dracoaliento</a_nombre>
