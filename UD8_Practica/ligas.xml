@@ -305,15 +305,103 @@
         </equipo>
     </liga_master_ball>
     <copa_halloween>
+        <!-- Equipo 1 -->
         <equipo>
             <pokemon>
-
+                <nombre>Melmetal</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Rayo</a_nombre>
+                        <potencia>14</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Hiperrayo</a_nombre>
+                        <potencia>18</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Acero</tipo>
+                <pc>3798</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Snorlax</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Cabezazo</a_nombre>
+                        <potencia>12</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Fuerza Bruta</a_nombre>
+                        <potencia>16</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Normal</tipo>
+                <pc>4379</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Ho-oh</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Terremoto</a_nombre>
+                        <potencia>13</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Pájaro Osado</a_nombre>
+                        <potencia>17</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Fuego</tipo>
+                <tipo>Volador</tipo>
+                <pc>4823</pc>
+            </pokemon>
+        </equipo>
+        <!-- Equipo 2 -->
+        <equipo>
+            <pokemon>
+                <nombre>Metagross</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Cabezazo Zen</a_nombre>
+                        <potencia>13</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Puño Meteoro</a_nombre>
+                        <potencia>15</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Acero</tipo>
+                <tipo>Psíquico</tipo>
+                <pc>5187</pc>
+            </pokemon>
+            <pokemon>
+                <nombre>Dialga</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Trueno</a_nombre>
+                        <potencia>16</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Cometa Draco</a_nombre>
+                        <potencia>18</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Acero</tipo>
+                <tipo>Dragón</tipo>
+                <pc>4911</pc>
+            </pokemon>
+            <pokemon>
+                <nombre>Mewtwo</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Rayo</a_nombre>
+                        <potencia>14</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Hiperrayo</a_nombre>
+                        <potencia>17</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Psíquico</tipo>
+                <pc>5239</pc>
             </pokemon>
         </equipo>
     </copa_halloween>
