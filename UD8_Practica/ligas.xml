@@ -51,56 +51,6 @@
                 <pc>1380</pc>
             </pokemon>
         </equipo>
-        <!-- Equipo 2 -->
-        <equipo>
-            <pokemon>
-                <nombre>Azumarill</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Hidro Bomba</a_nombre>
-                        <potencia>10</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Rayo Hielo</a_nombre>
-                        <potencia>12</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Agua</tipo>
-                <tipo>Hada</tipo>
-                <pc>1487</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Umbreon</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Alarido</a_nombre>
-                        <potencia>7</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Pulso Umbío</a_nombre>
-                        <potencia>12</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Siniestro</tipo>
-                <pc>1152</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Walrein</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Nieve polvo</a_nombre>
-                        <potencia>8</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Terremoto</a_nombre>
-                        <potencia>12</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Hielo</tipo>
-                <tipo>Agua</tipo>
-                <pc>1239</pc>
-            </pokemon>
-        </equipo>
     </liga_super_ball>
     <liga_ultra_ball>
         <!-- Equipo 1 -->
@@ -151,55 +101,6 @@
                 </ataques>
                 <tipo>Acero</tipo>
                 <pc>2380</pc>
-            </pokemon>
-        </equipo>
-        <!-- Equipo 2 -->
-        <equipo>
-            <pokemon>
-                <nombre>Charizard</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Lanzallamas</a_nombre>
-                        <potencia>10</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Anillo Ígneo</a_nombre>
-                        <potencia>14</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Fuego</tipo>
-                <tipo>Volador</tipo>
-                <pc>2487</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Vaporeon</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>HidroBomba</a_nombre>
-                        <potencia>11</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Escaldar</a_nombre>
-                        <potencia>15</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Agua</tipo>
-                <pc>2358</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Gigalith</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Avalancha</a_nombre>
-                        <potencia>9</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Fuerza Bruta</a_nombre>
-                        <potencia>14</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Roca</tipo>
-                <pc>2239</pc>
             </pokemon>
         </equipo>
     </liga_ultra_ball>
@@ -253,56 +154,6 @@
                 <pc>4823</pc>
             </pokemon>
         </equipo>
-        <!-- Equipo 2 -->
-        <equipo>
-            <pokemon>
-                <nombre>Metagross</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Cabezazo Zen</a_nombre>
-                        <potencia>13</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Puño Meteoro</a_nombre>
-                        <potencia>15</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Acero</tipo>
-                <tipo>Psíquico</tipo>
-                <pc>5187</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Dialga</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Trueno</a_nombre>
-                        <potencia>16</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Cometa Draco</a_nombre>
-                        <potencia>18</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Acero</tipo>
-                <tipo>Dragón</tipo>
-                <pc>4911</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Mewtwo</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Rayo</a_nombre>
-                        <potencia>14</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Hiperrayo</a_nombre>
-                        <potencia>17</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Psíquico</tipo>
-                <pc>5239</pc>
-            </pokemon>
-        </equipo>
     </liga_master_ball>
     <copa_halloween>
         <!-- Equipo 1 -->
@@ -352,56 +203,6 @@
                 <tipo>Fuego</tipo>
                 <tipo>Volador</tipo>
                 <pc>4823</pc>
-            </pokemon>
-        </equipo>
-        <!-- Equipo 2 -->
-        <equipo>
-            <pokemon>
-                <nombre>Metagross</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Cabezazo Zen</a_nombre>
-                        <potencia>13</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Puño Meteoro</a_nombre>
-                        <potencia>15</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Acero</tipo>
-                <tipo>Psíquico</tipo>
-                <pc>5187</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Dialga</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Trueno</a_nombre>
-                        <potencia>16</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Cometa Draco</a_nombre>
-                        <potencia>18</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Acero</tipo>
-                <tipo>Dragón</tipo>
-                <pc>4911</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Mewtwo</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Rayo</a_nombre>
-                        <potencia>14</potencia>
-                    </ataque>
-                    <ataque>
-                        <a_nombre>Hiperrayo</a_nombre>
-                        <potencia>17</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Psíquico</tipo>
-                <pc>5239</pc>
             </pokemon>
         </equipo>
     </copa_halloween>
