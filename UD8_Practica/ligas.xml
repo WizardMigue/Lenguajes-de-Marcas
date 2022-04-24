@@ -159,63 +159,103 @@
         <!-- Equipo 1 -->
         <equipo>
             <pokemon>
-                <nombre>Melmetal</nombre>
+                <nombre>Gengar</nombre>
                 <ataques>
                     <ataque>
-                        <a_nombre>Rayo</a_nombre>
-                        <potencia>14</potencia>
+                        <a_nombre>Bola Sombra</a_nombre>
+                        <potencia>9</potencia>
                     </ataque>
                     <ataque>
-                        <a_nombre>Hiperrayo</a_nombre>
-                        <potencia>18</potencia>
-                    </ataque>
-                </ataques>
-                <tipo>Acero</tipo>
-                <pc>3798</pc>
-            </pokemon>
-            <pokemon>
-                <nombre>Snorlax</nombre>
-                <ataques>
-                    <ataque>
-                        <a_nombre>Cabezazo</a_nombre>
+                        <a_nombre>Pulso Umbrío</a_nombre>
                         <potencia>12</potencia>
                     </ataque>
-                    <ataque>
-                        <a_nombre>Fuerza Bruta</a_nombre>
-                        <potencia>16</potencia>
-                    </ataque>
                 </ataques>
-                <tipo>Normal</tipo>
-                <pc>4379</pc>
+                <tipo>Fantasma</tipo>
+                <tipo>Veneno</tipo>
+                <pc>1458</pc>
             </pokemon>
             <pokemon>
-                <nombre>Ho-oh</nombre>
+                <nombre>Granbull</nombre>
                 <ataques>
                     <ataque>
-                        <a_nombre>Terremoto</a_nombre>
-                        <potencia>13</potencia>
+                        <a_nombre>Mordisco</a_nombre>
+                        <potencia>7</potencia>
                     </ataque>
                     <ataque>
-                        <a_nombre>Pájaro Osado</a_nombre>
-                        <potencia>17</potencia>
+                        <a_nombre>A Bocajarro</a_nombre>
+                        <potencia>13</potencia>
                     </ataque>
                 </ataques>
-                <tipo>Fuego</tipo>
-                <tipo>Volador</tipo>
-                <pc>4823</pc>
+                <tipo>Hada</tipo>
+                <pc>1379</pc>
+            </pokemon>
+            <pokemon>
+                <nombre>Absol</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Pulso Umbrío</a_nombre>
+                        <potencia>9</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Trueno</a_nombre>
+                        <potencia>11</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Siniestro</tipo>
+                <pc>1423</pc>
             </pokemon>
         </equipo>
     </copa_halloween>
     <copa_valodor>
+        <!-- Equipo 1 -->
         <equipo>
             <pokemon>
-
+                <nombre>Dragonite</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Dragoaliento</a_nombre>
+                        <potencia>10</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Cometa Draco</a_nombre>
+                        <potencia>14</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Dragón</tipo>
+                <tipo>Volador</tipo>
+                <pc>1492</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Staraptor</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Ataque Rápido</a_nombre>
+                        <potencia>8</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Pájaro Osado</a_nombre>
+                        <potencia>10</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Normal</tipo>
+                <tipo>Volador</tipo>
+                <pc>1401</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Zapdos</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Pulso Umbrío</a_nombre>
+                        <potencia>9</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Trueno</a_nombre>
+                        <potencia>11</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Eléctrico</tipo>
+                <tipo>Volador</tipo>
+                <pc>1381</pc>
             </pokemon>
         </equipo>
     </copa_valodor>
