@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Para la copa Captura: Capturados entre el 29 de marzo y el 5 de abril -->
 <pokedex>
-	<pokemon f_captura="2019">
+	<pokemon f_captura="2019-06-07">
 		<nombre>Espeon</nombre>
 		<ataque>
 			<a_nombre>Cabezazo Zen</a_nombre>
@@ -13,7 +14,7 @@
 		<tipo>Psiquico</tipo>
 		<pc>3046</pc>
 	</pokemon>
-		<pokemon f_captura="2018">
+		<pokemon f_captura="2022-03-30">
 		<nombre>Gyarados</nombre>
 		<ataque>
 			<a_nombre>Mordisco</a_nombre>
@@ -27,7 +28,7 @@
 		<tipo>Volador</tipo>
 		<pc>3001</pc>
 	</pokemon>
-	<pokemon f_captura="2018">
+	<pokemon f_captura="2018-21-01">
 		<nombre>Aggron</nombre>
 		<ataque>
 			<a_nombre>Cola Dragon</a_nombre>
@@ -37,7 +38,7 @@
 		<tipo>Roca</tipo>
 		<pc>666</pc>
 	</pokemon>
-		<pokemon f_captura="2020">
+		<pokemon f_captura="2020-09-20">
 		<nombre>Arcanine</nombre>
 		<ataque>
 			<a_nombre>Alarido</a_nombre>
@@ -46,7 +47,7 @@
 		<tipo>Fuego</tipo>
 		<pc>83</pc>
 	</pokemon>
-	<pokemon f_captura="2020">
+	<pokemon f_captura="2020-04-30">
 		<nombre>Flareon</nombre>
 		<ataque>
 			<a_nombre>Ascuas</a_nombre>
@@ -55,7 +56,7 @@
 		<tipo>Fuego</tipo>
 		<pc>2623</pc>
 	</pokemon>
-	<pokemon f_captura="2018">
+	<pokemon f_captura="2018-05-01">
 		<nombre>Vaporeon</nombre>
 		<ataque>
 			<a_nombre>Hidrobomba</a_nombre>
@@ -64,7 +65,7 @@
 		<tipo>Agua</tipo>
 		<pc>25</pc>
 	</pokemon>
-		<pokemon f_captura="2021">
+		<pokemon f_captura="2021-04-29">
 		<nombre>Magneton</nombre>
 		<ataque>
 			<a_nombre>Rayo Carga</a_nombre>
@@ -77,7 +78,7 @@
 		<tipo>Electrico</tipo>
 		<pc>2159</pc>
 	</pokemon>
-	<pokemon f_captura="2018">
+	<pokemon f_captura="2018-10-17">
 		<nombre>Hariyama</nombre>
 		<ataque>
 			<a_nombre>Avalancha</a_nombre>
@@ -86,7 +87,7 @@
 		<tipo>Lucha</tipo>
 		<pc>1054</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-04-04">
 		<nombre>Skamory</nombre>
 		<ataque>
 			<a_nombre>Tajo Aereo</a_nombre>
@@ -96,7 +97,7 @@
 		<tipo>Volador</tipo>
 		<pc>748</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-09-27">
 		<nombre>Digglet</nombre>
 		<ataque>
 			<a_nombre>Lanzarrocas</a_nombre>
@@ -109,7 +110,7 @@
 		<tipo>Fuego</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-04-05">
 		<nombre>Slugma</nombre>
 		<ataque>
 			<a_nombre>Lanzarrocas</a_nombre>
@@ -122,7 +123,7 @@
 		<tipo>Fuego</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2020">
+	<pokemon f_captura="2020-01-01">
 		<nombre>Trapinch</nombre>
 		<ataque>
 			<a_nombre>Avalancha</a_nombre>
@@ -135,7 +136,7 @@
 		<tipo>Tierra</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2017">
+	<pokemon f_captura="2017-11-15">
 		<nombre>Taillow</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
@@ -149,7 +150,7 @@
 		<tipo>Volador</tipo>
 		<pc>411</pc>
 	</pokemon>
-		<pokemon f_captura="2018">
+		<pokemon f_captura="2018-06-21">
 		<nombre>Darumaka</nombre>
 		<ataque>
 			<a_nombre>Colmillo Igneo</a_nombre>
@@ -162,7 +163,7 @@
 		<tipo>Fuego</tipo>
 		<pc>779</pc>
 	</pokemon>
-	<pokemon f_captura="2019">
+	<pokemon f_captura="2019-03-01">
 		<nombre>Rufflet</nombre>
 		<ataque>
 			<a_nombre>Ataque ala</a_nombre>
@@ -176,7 +177,7 @@
 		<tipo>Volador</tipo>
 		<pc>810</pc>
 	</pokemon>
-	<pokemon f_captura="2017">
+	<pokemon f_captura="2017-12-12">
 		<nombre>Gligar</nombre>
 		<ataque>
 			<a_nombre>Rapido Ataque</a_nombre>
@@ -190,7 +191,7 @@
 		<tipo>Volador</tipo>
 		<pc>901</pc>
 	</pokemon>
-	<pokemon f_captura="2018">
+	<pokemon f_captura="2018-12-04">
 		<nombre>Ditto</nombre>
 		<ataque>
 			<a_nombre>Transformacion</a_nombre>
@@ -203,7 +204,7 @@
 		<tipo>Normal</tipo>
 		<pc>522</pc>
 	</pokemon>
-	<pokemon f_captura="2019">
+	<pokemon f_captura="2019-05-15">
 		<nombre>Fletchling</nombre>
 		<ataque>
 			<a_nombre>Picotazo</a_nombre>
@@ -217,7 +218,7 @@
 		<tipo>Volador</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2020">
+	<pokemon f_captura="2020-09-18">
 		<nombre>Snubbull</nombre>
 		<ataque>
 			<a_nombre>Mordisco</a_nombre>
@@ -226,7 +227,7 @@
 		<tipo>Hada</tipo>
 		<pc>297</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-01-02">
 		<nombre>Rattata</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
@@ -240,7 +241,7 @@
 		<tipo>Normal</tipo>
 		<pc>461</pc>
 	</pokemon>
-	<pokemon f_captura="2021">
+	<pokemon f_captura="2021-03-21">
 		<nombre>Fomantis</nombre>
 		<ataque>
 			<a_nombre>Rapido Ataque</a_nombre>
@@ -257,7 +258,7 @@
 		<tipo>Planta</tipo>
 		<pc>461</pc>
 	</pokemon>
-		<pokemon f_captura="2022">
+		<pokemon f_captura="2022-06-25">
 		<nombre>Petilil</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
@@ -274,7 +275,7 @@
 		<tipo>Planta</tipo>
 		<pc>363</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-05-02">
 		<nombre>Chikorita</nombre>
 		<ataque>
 			<a_nombre>Placaje</a_nombre>
@@ -291,7 +292,7 @@
 		<tipo>Planta</tipo>
 		<pc>391</pc>
 	</pokemon>
-	<pokemon f_captura="2019">
+	<pokemon f_captura="2019-05-17">
 		<nombre>Magikarp</nombre>
 		<ataque>
 			<a_nombre>Ataque Lento</a_nombre>
@@ -300,7 +301,7 @@
 		<tipo>Agua</tipo>
 		<pc>29</pc>
 	</pokemon>
-	<pokemon f_captura="2021">
+	<pokemon f_captura="2021-02-18">
 		<nombre>Yungoos</nombre>
 		<ataque>
 			<a_nombre>Rapido Ataque</a_nombre>
@@ -309,7 +310,7 @@
 		<tipo>Normal</tipo>
 		<pc>420</pc>
 	</pokemon>
-	<pokemon f_captura="2022">
+	<pokemon f_captura="2022-09-10">
 		<nombre>Hitmonchan</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
