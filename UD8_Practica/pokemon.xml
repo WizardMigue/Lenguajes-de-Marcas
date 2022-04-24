@@ -13,7 +13,7 @@
 		<tipo>Psiquico</tipo>
 		<pc>3046</pc>
 	</pokemon>
-	<pokemon f_captura="2018">
+		<pokemon f_captura="2018">
 		<nombre>Gyarados</nombre>
 		<ataque>
 			<a_nombre>Mordisco</a_nombre>
@@ -194,7 +194,7 @@
 		<nombre>Ditto</nombre>
 		<ataque>
 			<a_nombre>Transformacion</a_nombre>
-			<potencia>0</potencia>
+			<potencia>0</potencia>	
 		</ataque>
 		<ataque>
 			<a_nombre>Combate</a_nombre>
@@ -229,7 +229,7 @@
 	<pokemon f_captura="2022">
 		<nombre>Rattata</nombre>
 		<ataque>
-		    <a_nombre>Ataque Rapido</a_nombre>
+			<a_nombre>Ataque Rapido</a_nombre>
 			<potencia>8</potencia>
 		</ataque> 
 		<ataque>
@@ -248,7 +248,7 @@
 		</ataque> 
 		<ataque>
 			<a_nombre>Corte Furia</a_nombre>
-				<potencia>3</potencia>
+			<potencia>3</potencia>
 		</ataque>
 		<ataque>
 			<a_nombre>Energibola</a_nombre>
@@ -305,15 +305,15 @@
 		<ataque>
 			<a_nombre>Rapido Ataque</a_nombre>
 			<potencia>5</potencia>
-		</ataque>
+		</ataque> 
 		<tipo>Normal</tipo>
 		<pc>420</pc>
 	</pokemon>
 	<pokemon f_captura="2022">
 		<nombre>Hitmonchan</nombre>
 		<ataque>
-            <a_nombre>Ataque Rapido</a_nombre>
-			<potencia>5</potencia>
+			<a_nombre>Ataque Rapido</a_nombre>
+			<potencia>5</potencia>	
 		</ataque>
 		<tipo>Lucha</tipo>
 		<pc>1684</pc>
