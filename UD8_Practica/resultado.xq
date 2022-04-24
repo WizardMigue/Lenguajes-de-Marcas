@@ -39,13 +39,19 @@ where $pok/tipo = 'Volador'
 return $pok
 
 // Consulta liga captura ball
-
+for $pok in /pokedex/pokemon
+let $pc := $pok/pc
+let $d:=$pok/[@f_captura]
+where $d >= '2022-04-29' and $d <= '2022-05-05'
+where $pc <= 1500
+order by number($pc) descending
+return $pok
 
 // Consulta liga elemental ball
 for $pok in /pokedex/pokemon
 let $pc := $pok/pc
 order by number($pc) descending
-where $pc <= 1500
+where $pc <= 500
 where $pok/tipo = 'Fuego' or
       $pok/tipo = 'Agua' or
       $pok/tipo = 'Planta'
