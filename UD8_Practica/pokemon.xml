@@ -14,7 +14,7 @@
 		<tipo>Psiquico</tipo>
 		<pc>3046</pc>
 	</pokemon>
-		<pokemon f_captura="2022-03-30">
+		<pokemon f_captura="2022-04-30">
 		<nombre>Gyarados</nombre>
 		<ataque>
 			<a_nombre>Mordisco</a_nombre>
@@ -110,7 +110,7 @@
 		<tipo>Fuego</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2022-04-05">
+	<pokemon f_captura="2022-04-30">
 		<nombre>Slugma</nombre>
 		<ataque>
 			<a_nombre>Lanzarrocas</a_nombre>
@@ -123,7 +123,7 @@
 		<tipo>Fuego</tipo>
 		<pc>279</pc>
 	</pokemon>
-	<pokemon f_captura="2020-01-01">
+	<pokemon f_captura="2020-05-01">
 		<nombre>Trapinch</nombre>
 		<ataque>
 			<a_nombre>Avalancha</a_nombre>
@@ -163,7 +163,7 @@
 		<tipo>Fuego</tipo>
 		<pc>779</pc>
 	</pokemon>
-	<pokemon f_captura="2019-03-01">
+	<pokemon f_captura="2022-05-01">
 		<nombre>Rufflet</nombre>
 		<ataque>
 			<a_nombre>Ataque ala</a_nombre>
@@ -227,7 +227,7 @@
 		<tipo>Hada</tipo>
 		<pc>297</pc>
 	</pokemon>
-	<pokemon f_captura="2022-01-02">
+	<pokemon f_captura="2022-04-29">
 		<nombre>Rattata</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
@@ -292,7 +292,7 @@
 		<tipo>Planta</tipo>
 		<pc>391</pc>
 	</pokemon>
-	<pokemon f_captura="2019-05-17">
+	<pokemon f_captura="2019-05-03">
 		<nombre>Magikarp</nombre>
 		<ataque>
 			<a_nombre>Ataque Lento</a_nombre>
@@ -301,7 +301,7 @@
 		<tipo>Agua</tipo>
 		<pc>29</pc>
 	</pokemon>
-	<pokemon f_captura="2021-02-18">
+	<pokemon f_captura="2021-05-03">
 		<nombre>Yungoos</nombre>
 		<ataque>
 			<a_nombre>Rapido Ataque</a_nombre>
@@ -310,7 +310,7 @@
 		<tipo>Normal</tipo>
 		<pc>420</pc>
 	</pokemon>
-	<pokemon f_captura="2022-09-10">
+	<pokemon f_captura="2022-05-01">
 		<nombre>Hitmonchan</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
