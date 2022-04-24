@@ -260,28 +260,103 @@
         </equipo>
     </copa_valodor>
     <copa_captura>
+        <!-- Equipo 1: Capturados entre el 29 de marzo y el 5 de abril -->
         <equipo>
-            <pokemon>
-
+            <pokemon fecha_captura="2022-03-30">
+                <nombre>Electivire</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Trueno</a_nombre>
+                        <potencia>7</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Lanzallamas</a_nombre>
+                        <potencia>12</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Eléctrico</tipo>
+                <pc>1250</pc>
             </pokemon>
-            <pokemon>
-                
+            <pokemon fecha_captura="2022-04-04">
+                <nombre>Ursaring</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Garra Metal</a_nombre>
+                        <potencia>10</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Contraataque</a_nombre>
+                        <potencia>12</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Normal</tipo>
+                <pc>1500</pc>
             </pokemon>
-            <pokemon>
-                
+            <pokemon fecha_captura="2022-04-05">
+                <nombre>Tyranitar</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Roca Afilada</a_nombre>
+                        <potencia>9</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Triturar</a_nombre>
+                        <potencia>14</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Roca</tipo>
+                <tipo>Siniestro</tipo>
+                <pc>1411</pc>
             </pokemon>
         </equipo>
     </copa_captura>
     <copa_elemental>
+        <!-- Equipo 1 -->
         <equipo>
             <pokemon>
-
+                <nombre>Squirtle</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Placaje</a_nombre>
+                        <potencia>5</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Burbuja Draco</a_nombre>
+                        <potencia>7</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Agua</tipo>
+                <pc>445</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Chimchar</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Arañazo</a_nombre>
+                        <potencia>7</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Rueda Fuego</a_nombre>
+                        <potencia>8</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Fuego</tipo>
+                <pc>401</pc>
             </pokemon>
             <pokemon>
-                
+                <nombre>Chespin</nombre>
+                <ataques>
+                    <ataque>
+                        <a_nombre>Derribo</a_nombre>
+                        <potencia>5</potencia>
+                    </ataque>
+                    <ataque>
+                        <a_nombre>Látigo Cepa</a_nombre>
+                        <potencia>7</potencia>
+                    </ataque>
+                </ataques>
+                <tipo>Planta</tipo>
+                <pc>381</pc>
             </pokemon>
         </equipo>
     </copa_elemental>
