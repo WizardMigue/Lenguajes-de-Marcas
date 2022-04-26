@@ -18,7 +18,7 @@ let $pc := $pok/pc
 order by number($pc) descending
 return $pok
 
-// Consulta liga halloween ball
+// Consulta copa halloween
 for $pok in /pokedex/pokemon
 let $pc := $pok/pc
 order by number($pc) descending
@@ -30,7 +30,7 @@ where $pok/tipo = 'Veneno' or
       $pok/tipo = 'Hada'
 return $pok
 
-// Consulta liga volador ball
+// Consulta copa volador
 for $pok in /pokedex/pokemon
 let $pc := $pok/pc
 order by number($pc) descending
@@ -38,7 +38,7 @@ where $pc <= 1500
 where $pok/tipo = 'Volador'
 return $pok
 
-// Consulta liga captura ball
+// Consulta copa captura
 for $pok in /pokedex/pokemon
 let $pc := $pok/pc
 let $d:=$pok/[@f_captura]
@@ -47,7 +47,7 @@ where $pc <= 1500
 order by number($pc) descending
 return $pok
 
-// Consulta liga elemental ball
+// Consulta copa elemental
 for $pok in /pokedex/pokemon
 let $pc := $pok/pc
 order by number($pc) descending

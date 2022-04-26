@@ -14,7 +14,11 @@
 		<tipo>Psiquico</tipo>
 		<pc>3046</pc>
 	</pokemon>
+<<<<<<< HEAD
 		<pokemon f_captura="2022">
+=======
+	<pokemon f_captura="2022-04-30">
+>>>>>>> c8401539b34d69cbf3a7ba531373f01bfff5b6b5
 		<nombre>Gyarados</nombre>
 		<ataque>
 			<a_nombre>Mordisco</a_nombre>
@@ -38,7 +42,11 @@
 		<tipo>Roca</tipo>
 		<pc>666</pc>
 	</pokemon>
+<<<<<<< HEAD
 		<pokemon f_captura="2020">
+=======
+	<pokemon f_captura="2020-09-20">
+>>>>>>> c8401539b34d69cbf3a7ba531373f01bfff5b6b5
 		<nombre>Arcanine</nombre>
 		<ataque>
 			<a_nombre>Alarido</a_nombre>
@@ -65,7 +73,11 @@
 		<tipo>Agua</tipo>
 		<pc>25</pc>
 	</pokemon>
+<<<<<<< HEAD
 		<pokemon f_captura="2021">
+=======
+	<pokemon f_captura="2021-04-29">
+>>>>>>> c8401539b34d69cbf3a7ba531373f01bfff5b6b5
 		<nombre>Magneton</nombre>
 		<ataque>
 			<a_nombre>Rayo Carga</a_nombre>
@@ -150,7 +162,11 @@
 		<tipo>Volador</tipo>
 		<pc>411</pc>
 	</pokemon>
+<<<<<<< HEAD
 		<pokemon f_captura="2018">
+=======
+	<pokemon f_captura="2018-06-21">
+>>>>>>> c8401539b34d69cbf3a7ba531373f01bfff5b6b5
 		<nombre>Darumaka</nombre>
 		<ataque>
 			<a_nombre>Colmillo Igneo</a_nombre>
@@ -258,7 +274,11 @@
 		<tipo>Planta</tipo>
 		<pc>461</pc>
 	</pokemon>
+<<<<<<< HEAD
 		<pokemon f_captura="2022">
+=======
+	<pokemon f_captura="2022-06-25">
+>>>>>>> c8401539b34d69cbf3a7ba531373f01bfff5b6b5
 		<nombre>Petilil</nombre>
 		<ataque>
 			<a_nombre>Ataque Rapido</a_nombre>
