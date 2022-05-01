@@ -8,7 +8,12 @@
         <description>
             Mimikyu es una especie de Pokémon en la franquicia de Pokémon de Nintendo y Game Freak. Fue introducido por primera vez en Pokémon Sol y Luna. Se le conoce como el "Pokémon Disfrazado", ya que es un Pokémon que se disfraza para parecerse a Pikachu con el fin de hacer amigos. 
         </description>
-        <author>208609@iessierradeguara.com</author>
+        <item>
+            <title>DAM</title>
+            <link>https://www.mipagina.com/rss/daw.rss</link>
+            <description>Desarrollo de Aplicaciones Multiplataforma</description>
+            <author>208609@iessierradeguara.com</author>
+        </item>
         <copyright>Miguel Ovejero. DAM1</copyright>
     </channel>
 </rss>
